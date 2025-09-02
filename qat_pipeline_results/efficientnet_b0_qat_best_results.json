@@ -1,0 +1,18 @@
+{
+    "epoch": 1,
+    "train_loss": 0.6251893070223461,
+    "composite_score": 0.5497908750403262,
+    "epoch_time": 101.7023868560791,
+    "training_type": "qat",
+    "multiclass_accuracy": 0.7954866008462623,
+    "multiclass_balanced_accuracy": 0.7401722273237297,
+    "multiclass_macro_f1": 0.5870532131147254,
+    "binary_accuracy": 0.8030516732914477,
+    "binary_f1": 0.5452930728241563,
+    "per_class_f1": [
+        0.87430441898527,
+        0.37458823529411767,
+        0.8787878787878788,
+        0.22053231939163498
+    ]
+}

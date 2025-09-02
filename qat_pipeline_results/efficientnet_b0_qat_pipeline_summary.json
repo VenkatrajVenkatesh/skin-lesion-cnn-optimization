@@ -1,0 +1,6 @@
+{
+    "original_model_path": "/home/vet-ai/ai_projects/skin-lesion-project/venkatraj-venkatesh/skin_lesion_research/Classification/results/model/efficientnet_b0.pth",
+    "qat_model_path": "qat_pipeline_results/efficientnet_b0_best_qat_model.pth",
+    "quantized_model_path": "qat_pipeline_results/efficientnet_b0_final_quantized_int8_model.pth",
+    "output_directory": "qat_pipeline_results"
+}

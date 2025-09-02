@@ -1,0 +1,415 @@
+(base) vet-ai@vetai-gpu-pc:~/ai_projects/skin-lesion-project/venkatraj-venkatesh/skin_lesion_research/Classification/src/model$ python run_models.py
+/home/vet-ai/.pyenv/versions/3.12.8/lib/python3.12/site-packages/albumentations/core/validation.py:114: UserWarning: ShiftScaleRotate is a special case of Affine transform. Please use Affine transform instead.
+  original_init(self, **validated_kwargs)
+using weighted dataloader
+Backbone frozen
+Created model: efficientnet_b0, classes: 4, dropout: 0.3
+Model Info: {'model_type': 'efficientnet_b0', 'parameter_info': {'total_parameters': 4665472, 'trainable_parameters': 657924, 'non_trainable_parameters': 4007548}, 'model_size_mb': 17.79736328125, 'backbone': 'efficientnet_b0', 'num_classes': 4, 'feature_dim': 1280}
+Using Focal Loss with gamma=3.0
+
+Epoch 1 Complete Evaluation Results:
+
+4-Class Results:
+  Accuracy: 0.2195
+  Balanced Accuracy: 0.6296
+  Macro F1: 0.3241
+  Weighted F1: 0.2759
+  ROC AUC (OvR): 0.8521
+
+  Per-Class Performance:
+    useful         : F1=0.245, P=0.988, R=0.140 (n=6699)
+    blurry         : F1=0.234, P=0.149, R=0.540 (n=578)
+    not relevant   : F1=0.793, P=0.725, R=0.876 (n=469)
+    too far away   : F1=0.024, P=0.012, R=0.962 (n=53)
+
+Binary Results (Useful vs Not-Useful):
+  Accuracy: 0.2599
+  Balanced Accuracy: 0.5650
+  Precision: 0.1590
+  Recall: 0.9900
+  Specificity: 0.1400
+  F1 Score: 0.2740
+  ROC AUC: 0.8405
+
+  Binary Confusion Matrix:
+                  Predicted
+                  Useful  Not-Useful
+  Actual Useful      938      5761
+      Not-Useful      11      1089
+
+Epoch 1/10 Summary:
+Train Loss: 4.4725 | val_loss: 1.6928 | Time: 100.6s
+Composite Score: 0.3374
+4-Class Balanced Accuracy: 0.6296
+Binary Accuracy (Useful vs Not-Useful): 0.2599
+Minority Class (too far away) F1: 0.0240
+Best model saved - Composite Score: 0.3374
+
+Epoch 2 Complete Evaluation Results:
+
+4-Class Results:
+  Accuracy: 0.2994
+  Balanced Accuracy: 0.6669
+  Macro F1: 0.3641
+  Weighted F1: 0.3829
+  ROC AUC (OvR): 0.8683
+
+  Per-Class Performance:
+    useful         : F1=0.368, P=0.988, R=0.226 (n=6699)
+    blurry         : F1=0.233, P=0.143, R=0.635 (n=578)
+    not relevant   : F1=0.825, P=0.789, R=0.864 (n=469)
+    too far away   : F1=0.031, P=0.016, R=0.943 (n=53)
+
+Binary Results (Useful vs Not-Useful):
+  Accuracy: 0.3326
+  Balanced Accuracy: 0.6043
+  Precision: 0.1725
+  Recall: 0.9827
+  Specificity: 0.2259
+  F1 Score: 0.2935
+  ROC AUC: 0.8616
+
+  Binary Confusion Matrix:
+                  Predicted
+                  Useful  Not-Useful
+  Actual Useful     1513      5186
+      Not-Useful      19      1081
+
+Epoch 2/10 Summary:
+Train Loss: 3.2583 | val_loss: 1.3962 | Time: 99.8s
+Composite Score: 0.3654
+4-Class Balanced Accuracy: 0.6669
+Binary Accuracy (Useful vs Not-Useful): 0.3326
+Minority Class (too far away) F1: 0.0309
+Best model saved - Composite Score: 0.3654
+
+Epoch 3 Complete Evaluation Results:
+
+4-Class Results:
+  Accuracy: 0.3149
+  Balanced Accuracy: 0.6733
+  Macro F1: 0.3656
+  Weighted F1: 0.4000
+  ROC AUC (OvR): 0.8697
+
+  Per-Class Performance:
+    useful         : F1=0.389, P=0.988, R=0.242 (n=6699)
+    blurry         : F1=0.230, P=0.140, R=0.642 (n=578)
+    not relevant   : F1=0.811, P=0.749, R=0.885 (n=469)
+    too far away   : F1=0.033, P=0.017, R=0.925 (n=53)
+
+Binary Results (Useful vs Not-Useful):
+  Accuracy: 0.3465
+  Balanced Accuracy: 0.6124
+  Precision: 0.1755
+  Recall: 0.9827
+  Specificity: 0.2420
+  F1 Score: 0.2978
+  ROC AUC: 0.8629
+
+  Binary Confusion Matrix:
+                  Predicted
+                  Useful  Not-Useful
+  Actual Useful     1621      5078
+      Not-Useful      19      1081
+
+Epoch 3/10 Summary:
+Train Loss: 2.8653 | val_loss: 1.3615 | Time: 100.5s
+Composite Score: 0.3678
+4-Class Balanced Accuracy: 0.6733
+Binary Accuracy (Useful vs Not-Useful): 0.3465
+Minority Class (too far away) F1: 0.0326
+Best model saved - Composite Score: 0.3678
+
+Epoch 4 Complete Evaluation Results:
+
+4-Class Results:
+  Accuracy: 0.3199
+  Balanced Accuracy: 0.6897
+  Macro F1: 0.3727
+  Weighted F1: 0.3965
+  ROC AUC (OvR): 0.8734
+
+  Per-Class Performance:
+    useful         : F1=0.383, P=0.991, R=0.237 (n=6699)
+    blurry         : F1=0.213, P=0.124, R=0.758 (n=578)
+    not relevant   : F1=0.853, P=0.814, R=0.896 (n=469)
+    too far away   : F1=0.042, P=0.022, R=0.868 (n=53)
+
+Binary Results (Useful vs Not-Useful):
+  Accuracy: 0.3432
+  Balanced Accuracy: 0.6124
+  Precision: 0.1753
+  Recall: 0.9873
+  Specificity: 0.2375
+  F1 Score: 0.2978
+  ROC AUC: 0.8720
+
+  Binary Confusion Matrix:
+                  Predicted
+                  Useful  Not-Useful
+  Actual Useful     1591      5108
+      Not-Useful      14      1086
+
+Epoch 4/10 Summary:
+Train Loss: 2.6031 | val_loss: 1.2028 | Time: 101.9s
+Composite Score: 0.3761
+4-Class Balanced Accuracy: 0.6897
+Binary Accuracy (Useful vs Not-Useful): 0.3432
+Minority Class (too far away) F1: 0.0420
+Best model saved - Composite Score: 0.3761
+
+Epoch 5 Complete Evaluation Results:
+
+4-Class Results:
+  Accuracy: 0.3297
+  Balanced Accuracy: 0.6820
+  Macro F1: 0.3703
+  Weighted F1: 0.4036
+  ROC AUC (OvR): 0.8776
+
+  Per-Class Performance:
+    useful         : F1=0.393, P=0.990, R=0.245 (n=6699)
+    blurry         : F1=0.211, P=0.122, R=0.792 (n=578)
+    not relevant   : F1=0.833, P=0.764, R=0.917 (n=469)
+    too far away   : F1=0.044, P=0.023, R=0.774 (n=53)
+
+Binary Results (Useful vs Not-Useful):
+  Accuracy: 0.3495
+  Balanced Accuracy: 0.6153
+  Precision: 0.1765
+  Recall: 0.9855
+  Specificity: 0.2451
+  F1 Score: 0.2994
+  ROC AUC: 0.8771
+
+  Binary Confusion Matrix:
+                  Predicted
+                  Useful  Not-Useful
+  Actual Useful     1642      5057
+      Not-Useful      16      1084
+
+Epoch 5/10 Summary:
+Train Loss: 2.3981 | val_loss: 1.1274 | Time: 102.2s
+Composite Score: 0.3736
+4-Class Balanced Accuracy: 0.6820
+Binary Accuracy (Useful vs Not-Useful): 0.3495
+Minority Class (too far away) F1: 0.0439
+
+Epoch 6 Complete Evaluation Results:
+
+4-Class Results:
+  Accuracy: 0.3367
+  Balanced Accuracy: 0.6855
+  Macro F1: 0.3779
+  Weighted F1: 0.4146
+  ROC AUC (OvR): 0.8788
+
+  Per-Class Performance:
+    useful         : F1=0.404, P=0.991, R=0.254 (n=6699)
+    blurry         : F1=0.213, P=0.123, R=0.796 (n=578)
+    not relevant   : F1=0.849, P=0.804, R=0.900 (n=469)
+    too far away   : F1=0.045, P=0.023, R=0.792 (n=53)
+
+Binary Results (Useful vs Not-Useful):
+  Accuracy: 0.3574
+  Balanced Accuracy: 0.6202
+  Precision: 0.1784
+  Recall: 0.9864
+  Specificity: 0.2541
+  F1 Score: 0.3021
+  ROC AUC: 0.8765
+
+  Binary Confusion Matrix:
+                  Predicted
+                  Useful  Not-Useful
+  Actual Useful     1702      4997
+      Not-Useful      15      1085
+
+Epoch 6/10 Summary:
+Train Loss: 2.1957 | val_loss: 1.1031 | Time: 101.2s
+Composite Score: 0.3784
+4-Class Balanced Accuracy: 0.6855
+Binary Accuracy (Useful vs Not-Useful): 0.3574
+Minority Class (too far away) F1: 0.0447
+Best model saved - Composite Score: 0.3784
+
+Epoch 7 Complete Evaluation Results:
+
+4-Class Results:
+  Accuracy: 0.3223
+  Balanced Accuracy: 0.6978
+  Macro F1: 0.3667
+  Weighted F1: 0.3897
+  ROC AUC (OvR): 0.8817
+
+  Per-Class Performance:
+    useful         : F1=0.378, P=0.994, R=0.233 (n=6699)
+    blurry         : F1=0.200, P=0.114, R=0.824 (n=578)
+    not relevant   : F1=0.833, P=0.758, R=0.923 (n=469)
+    too far away   : F1=0.056, P=0.029, R=0.811 (n=53)
+
+Binary Results (Useful vs Not-Useful):
+  Accuracy: 0.3400
+  Balanced Accuracy: 0.6120
+  Precision: 0.1750
+  Recall: 0.9909
+  Specificity: 0.2332
+  F1 Score: 0.2975
+  ROC AUC: 0.8812
+
+  Binary Confusion Matrix:
+                  Predicted
+                  Useful  Not-Useful
+  Actual Useful     1562      5137
+      Not-Useful      10      1090
+
+Epoch 7/10 Summary:
+Train Loss: 2.0453 | val_loss: 1.0470 | Time: 102.6s
+Composite Score: 0.3768
+4-Class Balanced Accuracy: 0.6978
+Binary Accuracy (Useful vs Not-Useful): 0.3400
+Minority Class (too far away) F1: 0.0561
+
+Epoch 8 Complete Evaluation Results:
+
+4-Class Results:
+  Accuracy: 0.3500
+  Balanced Accuracy: 0.6982
+  Macro F1: 0.3810
+  Weighted F1: 0.4275
+  ROC AUC (OvR): 0.8825
+
+  Per-Class Performance:
+    useful         : F1=0.420, P=0.993, R=0.267 (n=6699)
+    blurry         : F1=0.209, P=0.120, R=0.815 (n=578)
+    not relevant   : F1=0.841, P=0.775, R=0.919 (n=469)
+    too far away   : F1=0.054, P=0.028, R=0.792 (n=53)
+
+Binary Results (Useful vs Not-Useful):
+  Accuracy: 0.3684
+  Balanced Accuracy: 0.6274
+  Precision: 0.1812
+  Recall: 0.9882
+  Specificity: 0.2666
+  F1 Score: 0.3062
+  ROC AUC: 0.8796
+
+  Binary Confusion Matrix:
+                  Predicted
+                  Useful  Not-Useful
+  Actual Useful     1786      4913
+      Not-Useful      13      1087
+
+Epoch 8/10 Summary:
+Train Loss: 1.9275 | val_loss: 0.9971 | Time: 100.8s
+Composite Score: 0.3839
+4-Class Balanced Accuracy: 0.6982
+Binary Accuracy (Useful vs Not-Useful): 0.3684
+Minority Class (too far away) F1: 0.0537
+Best model saved - Composite Score: 0.3839
+
+Epoch 9 Complete Evaluation Results:
+
+4-Class Results:
+  Accuracy: 0.3352
+  Balanced Accuracy: 0.6926
+  Macro F1: 0.3769
+  Weighted F1: 0.4075
+  ROC AUC (OvR): 0.8813
+
+  Per-Class Performance:
+    useful         : F1=0.397, P=0.993, R=0.248 (n=6699)
+    blurry         : F1=0.200, P=0.114, R=0.834 (n=578)
+    not relevant   : F1=0.852, P=0.797, R=0.915 (n=469)
+    too far away   : F1=0.058, P=0.030, R=0.774 (n=53)
+
+Binary Results (Useful vs Not-Useful):
+  Accuracy: 0.3526
+  Balanced Accuracy: 0.6186
+  Precision: 0.1776
+  Recall: 0.9891
+  Specificity: 0.2481
+  F1 Score: 0.3012
+  ROC AUC: 0.8802
+
+  Binary Confusion Matrix:
+                  Predicted
+                  Useful  Not-Useful
+  Actual Useful     1662      5037
+      Not-Useful      12      1088
+
+Epoch 9/10 Summary:
+Train Loss: 1.7629 | val_loss: 0.9954 | Time: 102.8s
+Composite Score: 0.3812
+4-Class Balanced Accuracy: 0.6926
+Binary Accuracy (Useful vs Not-Useful): 0.3526
+Minority Class (too far away) F1: 0.0584
+
+Epoch 10 Complete Evaluation Results:
+
+4-Class Results:
+  Accuracy: 0.3265
+  Balanced Accuracy: 0.6971
+  Macro F1: 0.3685
+  Weighted F1: 0.3898
+  ROC AUC (OvR): 0.8863
+
+  Per-Class Performance:
+    useful         : F1=0.378, P=0.994, R=0.234 (n=6699)
+    blurry         : F1=0.196, P=0.110, R=0.879 (n=578)
+    not relevant   : F1=0.826, P=0.749, R=0.921 (n=469)
+    too far away   : F1=0.074, P=0.039, R=0.755 (n=53)
+
+Binary Results (Useful vs Not-Useful):
+  Accuracy: 0.3406
+  Balanced Accuracy: 0.6123
+  Precision: 0.1752
+  Recall: 0.9909
+  Specificity: 0.2338
+  F1 Score: 0.2977
+  ROC AUC: 0.8857
+
+  Binary Confusion Matrix:
+                  Predicted
+                  Useful  Not-Useful
+  Actual Useful     1566      5133
+      Not-Useful      10      1090
+
+Epoch 10/10 Summary:
+Train Loss: 1.6779 | val_loss: 0.9705 | Time: 101.8s
+Composite Score: 0.3799
+4-Class Balanced Accuracy: 0.6971
+Binary Accuracy (Useful vs Not-Useful): 0.3406
+Minority Class (too far away) F1: 0.0737
+
+TRAINING COMPLETE
+Best Composite Score: 0.3839
+
+Best Results (Epoch 8):
+
+4-Class Performance:
+  Accuracy: 0.3500
+  Balanced Accuracy: 0.6982
+  Macro F1: 0.3810
+  Weighted F1: 0.4275
+  ROC AUC: 0.8825
+
+Binary Performance (Useful vs Not-Useful):
+  Accuracy: 0.3684
+  Balanced Accuracy: 0.6274
+  F1 Score: 0.3062
+  Precision: 0.1812
+  Recall: 0.9882
+  Specificity: 0.2666
+  ROC AUC: 0.8796
+
+Per-Class F1 Scores:
+  useful         : 0.4203
+  blurry         : 0.2088
+  not relevant   : 0.8410
+  too far away   : 0.0537
+
+Results saved:
+  Comprehensive log: /home/vet-ai/ai_projects/skin-lesion-project/venkatraj-venkatesh/skin_lesion_research/Classification/src/Results/comprehensive_training_log.json
+  Best epoch results: /home/vet-ai/ai_projects/skin-lesion-project/venkatraj-venkatesh/skin_lesion_research/Classification/src/Results/best_epoch_results.json

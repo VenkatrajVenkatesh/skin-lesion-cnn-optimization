@@ -1,0 +1,84 @@
+{
+    "epoch": 8,
+    "train_loss": 0.7059932965785265,
+    "composite_score": 0.5728576953651646,
+    "epoch_time": 102.44341444969177,
+    "val_loss": 0.5918887932403166,
+    "multiclass_accuracy": 0.8374150532119502,
+    "multiclass_balanced_accuracy": 0.7587969987146319,
+    "multiclass_macro_f1": 0.6079121935468121,
+    "multiclass_weighted_f1": 0.8621539713111809,
+    "multiclass_macro_precision": 0.5672451611213501,
+    "multiclass_macro_recall": 0.7587969987146319,
+    "per_class_f1": [
+        0.9040575812702681,
+        0.42550655542312277,
+        0.8733264675592173,
+        0.22875816993464052
+    ],
+    "per_class_precision": [
+        0.9614737550471063,
+        0.3245454545454545,
+        0.8446215139442231,
+        0.1383399209486166
+    ],
+    "per_class_recall": [
+        0.8531124048365427,
+        0.6176470588235294,
+        0.9040511727078892,
+        0.660377358490566
+    ],
+    "multiclass_confusion_matrix": [
+        [
+            5715,
+            726,
+            71,
+            187
+        ],
+        [
+            197,
+            357,
+            4,
+            20
+        ],
+        [
+            21,
+            13,
+            424,
+            11
+        ],
+        [
+            11,
+            4,
+            3,
+            35
+        ]
+    ],
+    "multiclass_roc_auc": 0.9195084024283426,
+    "per_class_roc_auc": [
+        0.904357231065695,
+        0.8409340739643936,
+        0.9826913958758149,
+        0.9500509088074673
+    ],
+    "binary_accuracy": 0.8444672393896654,
+    "binary_balanced_accuracy": 0.8224652933273623,
+    "binary_f1": 0.5895093062605753,
+    "binary_precision": 0.46954177897574123,
+    "binary_recall": 0.7918181818181819,
+    "binary_specificity": 0.8531124048365427,
+    "binary_roc_auc": 0.904357231065695,
+    "binary_confusion_matrix": [
+        [
+            5715,
+            984
+        ],
+        [
+            229,
+            871
+        ]
+    ],
+    "model_name": "mobilenetv3_small",
+    "model_size_MB": 4.8,
+    "inference_speed_img_per_sec": 258.71
+}

@@ -1,0 +1,363 @@
+{
+    "architecture": "efficientnet_b0",
+    "original_model_path": "/home/vet-ai/ai_projects/skin-lesion-project/venkatraj-venkatesh/skin_lesion_research/Classification/results/model/efficientnet_b0.pth",
+    "pruned_model_path": "/home/vet-ai/ai_projects/skin-lesion-project/venkatraj-venkatesh/skin_lesion_research/Classification/results/model/efficientnet_b0_pruned_structured_60.pth",
+    "pruning_method": "structured",
+    "pruning_ratio": 0.6,
+    "fine_tune_epochs": 6,
+    "original_size_mb": 18.09357738494873,
+    "pruned_size_mb": 17.419268913269043,
+    "size_reduction_percent":  3.763440860215053,
+    "original_sparsity": 0.0,
+    "final_sparsity": 0.5996330414426911,
+    "total_parameters": 4613600,
+    "zero_parameters": 2766467,
+    "original_metrics": {
+        "epoch": "PRUNED_MODEL",
+        "multiclass": {
+            "accuracy": 0.8133093986408514,
+            "balanced_accuracy": 0.734651279268961,
+            "per_class_precision": [
+                0.9660808435852373,
+                0.2740899357601713,
+                0.8410852713178295,
+                0.14583333333333334
+            ],
+            "per_class_recall": [
+                0.8205702343633378,
+                0.6643598615916955,
+                0.9253731343283582,
+                0.5283018867924528
+            ],
+            "per_class_f1": [
+                0.8874001130034708,
+                0.3880747852450733,
+                0.8812182741116751,
+                0.22857142857142856
+            ],
+            "macro_precision": 0.5567723459991429,
+            "macro_recall": 0.734651279268961,
+            "macro_f1": 0.596316150232912,
+            "weighted_precision": 0.9017050535916928,
+            "weighted_recall": 0.8133093986408514,
+            "weighted_f1": 0.845545100545527,
+            "confusion_matrix": [
+                [
+                    5497,
+                    983,
+                    75,
+                    144
+                ],
+                [
+                    172,
+                    384,
+                    6,
+                    16
+                ],
+                [
+                    13,
+                    18,
+                    434,
+                    4
+                ],
+                [
+                    8,
+                    16,
+                    1,
+                    28
+                ]
+            ],
+            "roc_auc_ovr": 0.8999894200501561,
+            "per_class_roc_auc": [
+                0.8978928333944008,
+                0.8329048205709126,
+                0.9818998944082937,
+                0.8872601318270174
+            ],
+            "per_class_support": [
+                6699.0,
+                578.0,
+                469.0,
+                53.0
+            ]
+        },
+        "binary": {
+            "accuracy": 0.8211309142197718,
+            "balanced_accuracy": 0.8225578444543962,
+            "precision": 0.4300616405879564,
+            "recall": 0.8245454545454546,
+            "f1_score": 0.565285135556248,
+            "confusion_matrix": [
+                [
+                    5497,
+                    1202
+                ],
+                [
+                    193,
+                    907
+                ]
+            ],
+            "specificity": 0.8205702343633378,
+            "true_positives": 907,
+            "true_negatives": 5497,
+            "false_positives": 1202,
+            "false_negatives": 193,
+            "roc_auc": 0.8978928333944007,
+            "target_distribution": {
+                "useful_samples": 6699,
+                "not_useful_samples": 1100
+            },
+            "prediction_distribution": {
+                "predicted_useful": 5690,
+                "predicted_not_useful": 2109
+            }
+        }
+    },
+    "post_prune_metrics": {
+        "epoch": "PRUNED_MODEL",
+        "multiclass": {
+            "accuracy": 0.8589562764456982,
+            "balanced_accuracy": 0.694773780002807,
+            "per_class_precision": [
+                0.8589562764456982,
+                0.0,
+                0.0,
+                0.0
+            ],
+            "per_class_recall": [
+                1.0,
+                0.0,
+                0.0,
+                0.0
+            ],
+            "per_class_f1": [
+                0.9241274658573596,
+                0.0,
+                0.0,
+                0.0
+            ],
+            "macro_precision": 0.21473906911142454,
+            "macro_recall": 0.25,
+            "macro_f1": 0.2310318664643399,
+            "weighted_precision": 0.7378058848454586,
+            "weighted_recall": 0.8589562764456982,
+            "weighted_f1": 0.7937850870340366,
+            "confusion_matrix": [
+                [
+                    6699,
+                    0,
+                    0,
+                    0
+                ],
+                [
+                    578,
+                    0,
+                    0,
+                    0
+                ],
+                [
+                    469,
+                    0,
+                    0,
+                    0
+                ],
+                [
+                    53,
+                    0,
+                    0,
+                    0
+                ]
+            ],
+            "roc_auc_ovr": 0.519613732456337,
+            "per_class_roc_auc": [
+                0.40287023843450176,
+                0.7214759287717629,
+                0.6052531146644482,
+                0.3488556479546351
+            ],
+            "per_class_support": [
+                6699.0,
+                578.0,
+                469.0,
+                53.0
+            ]
+        },
+        "binary": {
+            "accuracy": 0.8589562764456982,
+            "balanced_accuracy": 0.5,
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1_score": 0.0,
+            "confusion_matrix": [
+                [
+                    6699,
+                    0
+                ],
+                [
+                    1100,
+                    0
+                ]
+            ],
+            "specificity": 1.0,
+            "true_positives": 0,
+            "true_negatives": 6699,
+            "false_positives": 0,
+            "false_negatives": 1100,
+            "roc_auc": 0.40287105266729095,
+            "target_distribution": {
+                "useful_samples": 6699,
+                "not_useful_samples": 1100
+            },
+            "prediction_distribution": {
+                "predicted_useful": 7799,
+                "predicted_not_useful": 0
+            }
+        }
+    },
+    "final_metrics": {
+        "epoch": "PRUNED_MODEL",
+        "multiclass": {
+            "accuracy": 0.8634440312860623,
+            "balanced_accuracy": 0.6864773780002807,
+            "per_class_precision": [
+                0.866796875,
+                0.0,
+                0.6470588235294118,
+                0.0
+            ],
+            "per_class_recall": [
+                0.9937304075235109,
+                0.0,
+                0.16417910447761194,
+                0.0
+            ],
+            "per_class_f1": [
+                0.9259336532443146,
+                0.0,
+                0.2619047619047619,
+                0.0
+            ],
+            "macro_precision": 0.37846392463235295,
+            "macro_recall": 0.2894773780002807,
+            "macro_f1": 0.29695960378726916,
+            "weighted_precision": 0.7834520905065129,
+            "weighted_recall": 0.8634440312860623,
+            "weighted_f1": 0.8110864054900625,
+            "confusion_matrix": [
+                [
+                    6657,
+                    0,
+                    42,
+                    0
+                ],
+                [
+                    578,
+                    0,
+                    0,
+                    0
+                ],
+                [
+                    392,
+                    0,
+                    77,
+                    0
+                ],
+                [
+                    53,
+                    0,
+                    0,
+                    0
+                ]
+            ],
+            "roc_auc_ovr": 0.6928965636070357,
+            "per_class_roc_auc": [
+                0.6772591567262414,
+                0.7030442495432151,
+                0.7784406752051475,
+                0.6128421729535389
+            ],
+            "per_class_support": [
+                6699.0,
+                578.0,
+                469.0,
+                53.0
+            ]
+        },
+        "binary": {
+            "accuracy": 0.8634440312860623,
+            "balanced_accuracy": 0.5318652037617555,
+            "precision": 0.6470588235294118,
+            "recall": 0.07,
+            "f1_score": 0.12633305988515175,
+            "confusion_matrix": [
+                [
+                    6657,
+                    42
+                ],
+                [
+                    1023,
+                    77
+                ]
+            ],
+            "specificity": 0.9937304075235109,
+            "true_positives": 77,
+            "true_negatives": 6657,
+            "false_positives": 42,
+            "false_negatives": 1023,
+            "roc_auc": 0.6772591567262414,
+            "target_distribution": {
+                "useful_samples": 6699,
+                "not_useful_samples": 1100
+            },
+            "prediction_distribution": {
+                "predicted_useful": 7680,
+                "predicted_not_useful": 119
+            }
+        }
+    },
+    "training_history": [
+        {
+            "epoch": 1,
+            "train_loss": 0.522783423291452,
+            "train_accuracy": 0.855867527205917,
+            "val_accuracy": 0.8621618156173868,
+            "epoch_time": 103.88216876983643
+        },
+        {
+            "epoch": 2,
+            "train_loss": 0.4946725943675601,
+            "train_accuracy": 0.8648890563904461,
+            "val_accuracy": 0.8640851391204001,
+            "epoch_time": 101.98103737831116
+        },
+        {
+            "epoch": 3,
+            "train_loss": 0.4905921556504376,
+            "train_accuracy": 0.8654543741461347,
+            "val_accuracy": 0.8637004744197974,
+            "epoch_time": 102.27162647247314
+        },
+        {
+            "epoch": 4,
+            "train_loss": 0.4894880702247821,
+            "train_accuracy": 0.8663494605926414,
+            "val_accuracy": 0.8639569175535325,
+            "epoch_time": 102.01426196098328
+        },
+        {
+            "epoch": 5,
+            "train_loss": 0.4869442619383335,
+            "train_accuracy": 0.8657841428369529,
+            "val_accuracy": 0.8640851391204001,
+            "epoch_time": 102.3885703086853
+        },
+        {
+            "epoch": 6,
+            "train_loss": 0.4836927541722375,
+            "train_accuracy": 0.8666556743769728,
+            "val_accuracy": 0.8643415822541352,
+            "epoch_time": 102.20887303352356
+        }
+    ],
+    "device_used": "cuda"
+}

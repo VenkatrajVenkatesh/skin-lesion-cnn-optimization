@@ -1,0 +1,842 @@
+[
+    {
+        "epoch": 1,
+        "train_loss": 0.9853961929589151,
+        "composite_score": 0.535624330158352,
+        "epoch_time": 102.4329924583435,
+        "val_loss": 0.654284319458682,
+        "multiclass_accuracy": 0.8086934222336197,
+        "multiclass_balanced_accuracy": 0.746291311821293,
+        "multiclass_macro_f1": 0.5693940264431354,
+        "multiclass_weighted_f1": 0.8419772013716912,
+        "multiclass_macro_precision": 0.5302761236794705,
+        "multiclass_macro_recall": 0.746291311821293,
+        "per_class_f1": [
+            0.8862043971973906,
+            0.40069889341875364,
+            0.8312195121951219,
+            0.15945330296127563
+        ],
+        "per_class_precision": [
+            0.9622245540398741,
+            0.30201931518876207,
+            0.7661870503597122,
+            0.09067357512953368
+        ],
+        "per_class_recall": [
+            0.8213166144200627,
+            0.5951557093425606,
+            0.908315565031983,
+            0.660377358490566
+        ],
+        "multiclass_confusion_matrix": [
+            [
+                5502,
+                774,
+                117,
+                306
+            ],
+            [
+                195,
+                344,
+                7,
+                32
+            ],
+            [
+                16,
+                14,
+                426,
+                13
+            ],
+            [
+                5,
+                7,
+                6,
+                35
+            ]
+        ],
+        "multiclass_roc_auc": 0.903545221639574,
+        "per_class_roc_auc": [
+            0.8892147403275931,
+            0.819247758244528,
+            0.9813800806918438,
+            0.924338307294331
+        ],
+        "binary_accuracy": 0.8188229260161559,
+        "binary_balanced_accuracy": 0.8124764890282131,
+        "binary_f1": 0.5558000628733103,
+        "binary_precision": 0.42479577126381546,
+        "binary_recall": 0.8036363636363636,
+        "binary_specificity": 0.8213166144200627,
+        "binary_roc_auc": 0.889214740327593,
+        "binary_confusion_matrix": [
+            [
+                5502,
+                1197
+            ],
+            [
+                216,
+                884
+            ]
+        ],
+        "model_name": "mobilenetv3_large",
+        "model_size_MB": 0,
+        "inference_speed_img_per_sec": 258.61
+    },
+    {
+        "epoch": 2,
+        "train_loss": 0.7477639672761581,
+        "composite_score": 0.5491132904382783,
+        "epoch_time": 102.66708660125732,
+        "val_loss": 0.6233041593957631,
+        "multiclass_accuracy": 0.825875112193871,
+        "multiclass_balanced_accuracy": 0.7588306182509729,
+        "multiclass_macro_f1": 0.5879109047856321,
+        "multiclass_weighted_f1": 0.8572037528194804,
+        "multiclass_macro_precision": 0.5626852672146166,
+        "multiclass_macro_recall": 0.7588306182509729,
+        "per_class_f1": [
+            0.8984517665740374,
+            0.42885245901639346,
+            0.8760504201680672,
+            0.1482889733840304
+        ],
+        "per_class_precision": [
+            0.9596336499321574,
+            0.3453009503695882,
+            0.8633540372670807,
+            0.0824524312896406
+        ],
+        "per_class_recall": [
+            0.8446036721898791,
+            0.5657439446366782,
+            0.8891257995735607,
+            0.7358490566037735
+        ],
+        "multiclass_confusion_matrix": [
+            [
+                5658,
+                606,
+                60,
+                375
+            ],
+            [
+                208,
+                327,
+                5,
+                38
+            ],
+            [
+                20,
+                11,
+                417,
+                21
+            ],
+            [
+                10,
+                3,
+                1,
+                39
+            ]
+        ],
+        "multiclass_roc_auc": 0.9110177354169372,
+        "per_class_roc_auc": [
+            0.8954164800716525,
+            0.8299549468605839,
+            0.9817582328078958,
+            0.9369412819276169
+        ],
+        "binary_accuracy": 0.8360046159764072,
+        "binary_balanced_accuracy": 0.8141200179131214,
+        "binary_f1": 0.5740925740925741,
+        "binary_precision": 0.4529689963215975,
+        "binary_recall": 0.7836363636363637,
+        "binary_specificity": 0.8446036721898791,
+        "binary_roc_auc": 0.8954164800716525,
+        "binary_confusion_matrix": [
+            [
+                5658,
+                1041
+            ],
+            [
+                238,
+                862
+            ]
+        ],
+        "model_name": "mobilenetv3_large",
+        "model_size_MB": 13.42,
+        "inference_speed_img_per_sec": 254.46
+    },
+    {
+        "epoch": 3,
+        "train_loss": 0.7179139648306082,
+        "composite_score": 0.5507023495221447,
+        "epoch_time": 102.1229784488678,
+        "val_loss": 0.5856701371977564,
+        "multiclass_accuracy": 0.7917681754071034,
+        "multiclass_balanced_accuracy": 0.7792102444397343,
+        "multiclass_macro_f1": 0.5837375918128078,
+        "multiclass_weighted_f1": 0.8334217873700197,
+        "multiclass_macro_precision": 0.5556835912312635,
+        "multiclass_macro_recall": 0.7792102444397343,
+        "per_class_f1": [
+            0.8724103913186452,
+            0.39766081871345027,
+            0.887722980062959,
+            0.17715617715617715
+        ],
+        "per_class_precision": [
+            0.9709057639524246,
+            0.276797829036635,
+            0.8739669421487604,
+            0.10106382978723404
+        ],
+        "per_class_recall": [
+            0.7920585161964472,
+            0.7058823529411765,
+            0.9019189765458422,
+            0.7169811320754716
+        ],
+        "multiclass_confusion_matrix": [
+            [
+                5306,
+                1041,
+                55,
+                297
+            ],
+            [
+                142,
+                408,
+                4,
+                24
+            ],
+            [
+                10,
+                19,
+                423,
+                17
+            ],
+            [
+                7,
+                6,
+                2,
+                38
+            ]
+        ],
+        "multiclass_roc_auc": 0.9128019650016033,
+        "per_class_roc_auc": [
+            0.9046683358438845,
+            0.8368602677024768,
+            0.9813364477553763,
+            0.9283428087046753
+        ],
+        "binary_accuracy": 0.8010001282215669,
+        "binary_balanced_accuracy": 0.8237565308254964,
+        "binary_f1": 0.5480489225393127,
+        "binary_precision": 0.4031705227077978,
+        "binary_recall": 0.8554545454545455,
+        "binary_specificity": 0.7920585161964472,
+        "binary_roc_auc": 0.9046683358438845,
+        "binary_confusion_matrix": [
+            [
+                5306,
+                1393
+            ],
+            [
+                159,
+                941
+            ]
+        ],
+        "model_name": "mobilenetv3_large",
+        "model_size_MB": 13.42,
+        "inference_speed_img_per_sec": 257.26
+    },
+    {
+        "epoch": 4,
+        "train_loss": 0.6782444271831268,
+        "composite_score": 0.5493021216619297,
+        "epoch_time": 102.8425281047821,
+        "val_loss": 0.5936156567491468,
+        "multiclass_accuracy": 0.8047185536607258,
+        "multiclass_balanced_accuracy": 0.7905455654042091,
+        "multiclass_macro_f1": 0.5828336947695897,
+        "multiclass_weighted_f1": 0.8440434483609017,
+        "multiclass_macro_precision": 0.5521407039515281,
+        "multiclass_macro_recall": 0.7905455654042091,
+        "per_class_f1": [
+            0.882625294452116,
+            0.43879361324659966,
+            0.8722109533468559,
+            0.1377049180327869
+        ],
+        "per_class_precision": [
+            0.968104062722737,
+            0.3333333333333333,
+            0.8317214700193424,
+            0.07540394973070018
+        ],
+        "per_class_recall": [
+            0.8110165696372593,
+            0.6418685121107266,
+            0.9168443496801706,
+            0.7924528301886793
+        ],
+        "multiclass_confusion_matrix": [
+            [
+                5433,
+                726,
+                79,
+                461
+            ],
+            [
+                162,
+                371,
+                5,
+                40
+            ],
+            [
+                13,
+                12,
+                430,
+                14
+            ],
+            [
+                4,
+                4,
+                3,
+                42
+            ]
+        ],
+        "multiclass_roc_auc": 0.9125045613757852,
+        "per_class_roc_auc": [
+            0.8969300031212257,
+            0.8330090436917698,
+            0.9814109146336141,
+            0.9386682840565308
+        ],
+        "binary_accuracy": 0.8147198358763944,
+        "binary_balanced_accuracy": 0.8241446484549932,
+        "binary_f1": 0.5603894128384546,
+        "binary_precision": 0.42112482853223593,
+        "binary_recall": 0.8372727272727273,
+        "binary_specificity": 0.8110165696372593,
+        "binary_roc_auc": 0.8969300031212257,
+        "binary_confusion_matrix": [
+            [
+                5433,
+                1266
+            ],
+            [
+                179,
+                921
+            ]
+        ],
+        "model_name": "mobilenetv3_large",
+        "model_size_MB": 13.42,
+        "inference_speed_img_per_sec": 260.67
+    },
+    {
+        "epoch": 5,
+        "train_loss": 0.6660550160625254,
+        "composite_score": 0.5787070374106978,
+        "epoch_time": 103.07246899604797,
+        "val_loss": 0.5782218688763068,
+        "multiclass_accuracy": 0.8074112065649443,
+        "multiclass_balanced_accuracy": 0.766587640230139,
+        "multiclass_macro_f1": 0.6130538536032775,
+        "multiclass_weighted_f1": 0.8432874757347666,
+        "multiclass_macro_precision": 0.5793599640922498,
+        "multiclass_macro_recall": 0.766587640230139,
+        "per_class_f1": [
+            0.8823194071178435,
+            0.39738195418419825,
+            0.8997867803837953,
+            0.2727272727272727
+        ],
+        "per_class_precision": [
+            0.9707885304659498,
+            0.27226137091607944,
+            0.8997867803837953,
+            0.1746031746031746
+        ],
+        "per_class_recall": [
+            0.8086281534557397,
+            0.7352941176470589,
+            0.8997867803837953,
+            0.6226415094339622
+        ],
+        "multiclass_confusion_matrix": [
+            [
+                5417,
+                1111,
+                42,
+                129
+            ],
+            [
+                133,
+                425,
+                3,
+                17
+            ],
+            [
+                18,
+                19,
+                422,
+                10
+            ],
+            [
+                12,
+                6,
+                2,
+                33
+            ]
+        ],
+        "multiclass_roc_auc": 0.919797899473175,
+        "per_class_roc_auc": [
+            0.9125524840885342,
+            0.8540134766485104,
+            0.9808945915520817,
+            0.9317310456035739
+        ],
+        "binary_accuracy": 0.8147198358763944,
+        "binary_balanced_accuracy": 0.8302231676369607,
+        "binary_f1": 0.5646278999698704,
+        "binary_precision": 0.42226228030644436,
+        "binary_recall": 0.8518181818181818,
+        "binary_specificity": 0.8086281534557397,
+        "binary_roc_auc": 0.9125526197939992,
+        "binary_confusion_matrix": [
+            [
+                5417,
+                1282
+            ],
+            [
+                163,
+                937
+            ]
+        ],
+        "model_name": "mobilenetv3_large",
+        "model_size_MB": 13.42,
+        "inference_speed_img_per_sec": 255.98
+    },
+    {
+        "epoch": 6,
+        "train_loss": 0.6515976392765002,
+        "composite_score": 0.5585247863067616,
+        "epoch_time": 103.1242151260376,
+        "val_loss": 0.5716288738929834,
+        "multiclass_accuracy": 0.801513014489037,
+        "multiclass_balanced_accuracy": 0.7700840601001302,
+        "multiclass_macro_f1": 0.5936241224471015,
+        "multiclass_weighted_f1": 0.840014524700639,
+        "multiclass_macro_precision": 0.564045606558804,
+        "multiclass_macro_recall": 0.7700840601001302,
+        "per_class_f1": [
+            0.8790131525202189,
+            0.4003887269193392,
+            0.8973544973544973,
+            0.1977401129943503
+        ],
+        "per_class_precision": [
+            0.9707686755683869,
+            0.27837837837837837,
+            0.8907563025210085,
+            0.11627906976744186
+        ],
+        "per_class_recall": [
+            0.8031049410359755,
+            0.71280276816609,
+            0.9040511727078892,
+            0.660377358490566
+        ],
+        "multiclass_confusion_matrix": [
+            [
+                5380,
+                1045,
+                47,
+                227
+            ],
+            [
+                138,
+                412,
+                3,
+                25
+            ],
+            [
+                14,
+                17,
+                424,
+                14
+            ],
+            [
+                10,
+                6,
+                2,
+                35
+            ]
+        ],
+        "multiclass_roc_auc": 0.9180220939110091,
+        "per_class_roc_auc": [
+            0.9076309896999551,
+            0.8488535935892478,
+            0.9804504082588421,
+            0.9351533840959911
+        ],
+        "binary_accuracy": 0.8101038594691627,
+        "binary_balanced_accuracy": 0.8279161068816241,
+        "binary_f1": 0.558832290735776,
+        "binary_precision": 0.4155959237926451,
+        "binary_recall": 0.8527272727272728,
+        "binary_specificity": 0.8031049410359755,
+        "binary_roc_auc": 0.9076309896999553,
+        "binary_confusion_matrix": [
+            [
+                5380,
+                1319
+            ],
+            [
+                162,
+                938
+            ]
+        ],
+        "model_name": "mobilenetv3_large",
+        "model_size_MB": 13.42,
+        "inference_speed_img_per_sec": 258.54
+    },
+    {
+        "epoch": 7,
+        "train_loss": 0.6310616174869867,
+        "composite_score": 0.5683787940663578,
+        "epoch_time": 103.48748803138733,
+        "val_loss": 0.5615844388538208,
+        "multiclass_accuracy": 0.8236953455571228,
+        "multiclass_balanced_accuracy": 0.7934656735272927,
+        "multiclass_macro_f1": 0.6008668192465166,
+        "multiclass_weighted_f1": 0.8557065438450008,
+        "multiclass_macro_precision": 0.5653810293170364,
+        "multiclass_macro_recall": 0.7934656735272927,
+        "per_class_f1": [
+            0.894681960375391,
+            0.43911007025761123,
+            0.8886597938144329,
+            0.18101545253863136
+        ],
+        "per_class_precision": [
+            0.966886269070735,
+            0.33185840707964603,
+            0.8602794411177644,
+            0.1025
+        ],
+        "per_class_recall": [
+            0.8325123152709359,
+            0.6487889273356401,
+            0.9189765458422174,
+            0.7735849056603774
+        ],
+        "multiclass_confusion_matrix": [
+            [
+                5577,
+                743,
+                64,
+                315
+            ],
+            [
+                171,
+                375,
+                4,
+                28
+            ],
+            [
+                13,
+                9,
+                431,
+                16
+            ],
+            [
+                7,
+                3,
+                2,
+                41
+            ]
+        ],
+        "multiclass_roc_auc": 0.918174418385679,
+        "per_class_roc_auc": [
+            0.9037426888680807,
+            0.8440459128004679,
+            0.9805653083248733,
+            0.9443437635492938
+        ],
+        "binary_accuracy": 0.8316450827029106,
+        "binary_balanced_accuracy": 0.8294379758172862,
+        "binary_f1": 0.5806451612903226,
+        "binary_precision": 0.44756277695716395,
+        "binary_recall": 0.8263636363636364,
+        "binary_specificity": 0.8325123152709359,
+        "binary_roc_auc": 0.9037426888680808,
+        "binary_confusion_matrix": [
+            [
+                5577,
+                1122
+            ],
+            [
+                191,
+                909
+            ]
+        ],
+        "model_name": "mobilenetv3_large",
+        "model_size_MB": 13.42,
+        "inference_speed_img_per_sec": 257.87
+    },
+    {
+        "epoch": 8,
+        "train_loss": 0.6087244523083231,
+        "composite_score": 0.5417988306522536,
+        "epoch_time": 103.16486525535583,
+        "val_loss": 0.5711980043131797,
+        "multiclass_accuracy": 0.7845877676625208,
+        "multiclass_balanced_accuracy": 0.7845276008151273,
+        "multiclass_macro_f1": 0.5775425673633132,
+        "multiclass_weighted_f1": 0.8315518256286724,
+        "multiclass_macro_precision": 0.560779897525044,
+        "multiclass_macro_recall": 0.7845276008151273,
+        "per_class_f1": [
+            0.8686751960379695,
+            0.4134366925064599,
+            0.8955866523143164,
+            0.13247172859450726
+        ],
+        "per_class_precision": [
+            0.9715657311669128,
+            0.2947678703021371,
+            0.9043478260869565,
+            0.07243816254416961
+        ],
+        "per_class_recall": [
+            0.7854903716972682,
+            0.6920415224913494,
+            0.8869936034115139,
+            0.7735849056603774
+        ],
+        "multiclass_confusion_matrix": [
+            [
+                5262,
+                940,
+                40,
+                457
+            ],
+            [
+                133,
+                400,
+                3,
+                42
+            ],
+            [
+                16,
+                11,
+                416,
+                26
+            ],
+            [
+                5,
+                6,
+                1,
+                41
+            ]
+        ],
+        "multiclass_roc_auc": 0.9166967079374603,
+        "per_class_roc_auc": [
+            0.9045235381128799,
+            0.8366061789216286,
+            0.9799736457063736,
+            0.9456834690089589
+        ],
+        "binary_accuracy": 0.7959994871137326,
+        "binary_balanced_accuracy": 0.8227451858486341,
+        "binary_f1": 0.5432098765432098,
+        "binary_precision": 0.39697859840537136,
+        "binary_recall": 0.86,
+        "binary_specificity": 0.7854903716972682,
+        "binary_roc_auc": 0.9045234702601475,
+        "binary_confusion_matrix": [
+            [
+                5262,
+                1437
+            ],
+            [
+                154,
+                946
+            ]
+        ],
+        "model_name": "mobilenetv3_large",
+        "model_size_MB": 13.42,
+        "inference_speed_img_per_sec": 256.3
+    },
+    {
+        "epoch": 9,
+        "train_loss": 0.6119329060304416,
+        "composite_score": 0.5676905722680753,
+        "epoch_time": 102.64830017089844,
+        "val_loss": 0.5537179832148259,
+        "multiclass_accuracy": 0.7912552891396333,
+        "multiclass_balanced_accuracy": 0.7735681497848792,
+        "multiclass_macro_f1": 0.5996753223460842,
+        "multiclass_weighted_f1": 0.8309623413321807,
+        "multiclass_macro_precision": 0.5607913456139955,
+        "multiclass_macro_recall": 0.7735681497848792,
+        "per_class_f1": [
+            0.8696729435084242,
+            0.38913624220837045,
+            0.8879837067209776,
+            0.25190839694656486
+        ],
+        "per_class_precision": [
+            0.9733777038269551,
+            0.2619904076738609,
+            0.8499025341130604,
+            0.15789473684210525
+        ],
+        "per_class_recall": [
+            0.7859381997313032,
+            0.7560553633217993,
+            0.929637526652452,
+            0.6226415094339622
+        ],
+        "multiclass_confusion_matrix": [
+            [
+                5265,
+                1214,
+                70,
+                150
+            ],
+            [
+                118,
+                437,
+                4,
+                19
+            ],
+            [
+                14,
+                12,
+                436,
+                7
+            ],
+            [
+                12,
+                5,
+                3,
+                33
+            ]
+        ],
+        "multiclass_roc_auc": 0.9197300160403283,
+        "per_class_roc_auc": [
+            0.9127408432737587,
+            0.8440078174528445,
+            0.9812256200967487,
+            0.9409457833379613
+        ],
+        "binary_accuracy": 0.7976663674830107,
+        "binary_balanced_accuracy": 0.8275145544111062,
+        "binary_f1": 0.5478510028653295,
+        "binary_precision": 0.4,
+        "binary_recall": 0.8690909090909091,
+        "binary_specificity": 0.7859381997313032,
+        "binary_roc_auc": 0.9127408432737587,
+        "binary_confusion_matrix": [
+            [
+                5265,
+                1434
+            ],
+            [
+                144,
+                956
+            ]
+        ],
+        "model_name": "mobilenetv3_large",
+        "model_size_MB": 13.42,
+        "inference_speed_img_per_sec": 257.09
+    },
+    {
+        "epoch": 10,
+        "train_loss": 0.6201833616493337,
+        "composite_score": 0.5667505333817091,
+        "epoch_time": 103.37964296340942,
+        "val_loss": 0.5508024852845024,
+        "multiclass_accuracy": 0.8045903320938582,
+        "multiclass_balanced_accuracy": 0.7924579279191052,
+        "multiclass_macro_f1": 0.5986428743485552,
+        "multiclass_weighted_f1": 0.8430017856901394,
+        "multiclass_macro_precision": 0.5697927912396097,
+        "multiclass_macro_recall": 0.7924579279191052,
+        "per_class_f1": [
+            0.8809018134291783,
+            0.41876543209876543,
+            0.8974358974358975,
+            0.19746835443037974
+        ],
+        "per_class_precision": [
+            0.9727584340609778,
+            0.2930200414651002,
+            0.8993576017130621,
+            0.11403508771929824
+        ],
+        "per_class_recall": [
+            0.8048962531721152,
+            0.7335640138408305,
+            0.8955223880597015,
+            0.7358490566037735
+        ],
+        "multiclass_confusion_matrix": [
+            [
+                5392,
+                1001,
+                42,
+                264
+            ],
+            [
+                125,
+                424,
+                4,
+                25
+            ],
+            [
+                18,
+                17,
+                420,
+                14
+            ],
+            [
+                8,
+                5,
+                1,
+                39
+            ]
+        ],
+        "multiclass_roc_auc": 0.9217121432899489,
+        "per_class_roc_auc": [
+            0.9119538194303085,
+            0.8486322093049444,
+            0.9807398400707434,
+            0.9455227043537991
+        ],
+        "binary_accuracy": 0.8130529555071163,
+        "binary_balanced_accuracy": 0.833811762949694,
+        "binary_f1": 0.5655542312276519,
+        "binary_precision": 0.42065602836879434,
+        "binary_recall": 0.8627272727272727,
+        "binary_specificity": 0.8048962531721152,
+        "binary_roc_auc": 0.9119538194303085,
+        "binary_confusion_matrix": [
+            [
+                5392,
+                1307
+            ],
+            [
+                151,
+                949
+            ]
+        ],
+        "model_name": "mobilenetv3_large",
+        "model_size_MB": 13.42,
+        "inference_speed_img_per_sec": 256.16
+    }
+]

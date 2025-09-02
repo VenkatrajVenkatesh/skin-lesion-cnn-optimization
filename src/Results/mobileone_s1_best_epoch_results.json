@@ -1,0 +1,84 @@
+{
+    "epoch": 3,
+    "train_loss": 1.3227746471852424,
+    "composite_score": 0.2919824590604673,
+    "epoch_time": 102.2533438205719,
+    "val_loss": 1.2780682913592605,
+    "multiclass_accuracy": 0.7509937171432235,
+    "multiclass_balanced_accuracy": 0.3907155133500883,
+    "multiclass_macro_f1": 0.3624412005721973,
+    "multiclass_weighted_f1": 0.7712313111882004,
+    "multiclass_macro_precision": 0.3492740536980351,
+    "multiclass_macro_recall": 0.3907155133500883,
+    "per_class_f1": [
+        0.8520682402430474,
+        0.24319419237749546,
+        0.35450236966824644,
+        0.0
+    ],
+    "per_class_precision": [
+        0.8910068426197458,
+        0.1869767441860465,
+        0.3191126279863481,
+        0.0
+    ],
+    "per_class_recall": [
+        0.8163905060456784,
+        0.3477508650519031,
+        0.39872068230277186,
+        0.0
+    ],
+    "multiclass_confusion_matrix": [
+        [
+            5469,
+            838,
+            392,
+            0
+        ],
+        [
+            370,
+            201,
+            7,
+            0
+        ],
+        [
+            250,
+            32,
+            187,
+            0
+        ],
+        [
+            49,
+            4,
+            0,
+            0
+        ]
+    ],
+    "multiclass_roc_auc": 0.6727368191288855,
+    "per_class_roc_auc": [
+        0.6341485160607417,
+        0.7350351172018943,
+        0.7332919305247296,
+        0.5884717127281762
+    ],
+    "binary_accuracy": 0.756507244518528,
+    "binary_balanced_accuracy": 0.6041043439319301,
+    "binary_f1": 0.3122057225642883,
+    "binary_precision": 0.25948223961468997,
+    "binary_recall": 0.39181818181818184,
+    "binary_specificity": 0.8163905060456784,
+    "binary_roc_auc": 0.6341485839134742,
+    "binary_confusion_matrix": [
+        [
+            5469,
+            1230
+        ],
+        [
+            669,
+            431
+        ]
+    ],
+    "model_name": "mobileone",
+    "model_size_MB": 16.49,
+    "inference_speed_img_per_sec": 256.16
+}

@@ -1,0 +1,58 @@
+{
+  "architecture": "mobilenetv3_small",
+  "validation_samples": 7799,
+  "fp32": {
+    "size_mb": 4.803227386474609,
+    "cpu_time_ms": 6.191492080688477,
+    "cpu_fps": 161.51195656359505,
+    "gpu_time_ms": 3.379073143005371,
+    "gpu_fps": 295.9391400183167,
+    "metrics": {
+      "multiclass": {
+        "accuracy": 0.8374150532119502
+      },
+      "balanced_accuracy": 0.7867969987146319,
+      "precision": 0.9016488605767349,
+      "recall": 0.8374150532119502,
+      "binary": {
+        "f1_score": 0.5895093062605753
+      }
+    }
+  },
+  "fp16": {
+    "size_mb": 2.581708755493164,
+    "cpu_time_ms": 6.241579055786133,
+    "cpu_fps": 160.21586702053702,
+    "gpu_time_ms": 3.717007637023926,
+    "gpu_fps": 269.0336145773066,
+    "metrics": {
+      "multiclass": {
+        "accuracy": 0.8363892806770099
+      },
+      "balanced_accuracy": 0.7635241007029364,
+      "precision": 0.9010915361515527,
+      "recall": 0.8363892806770099,
+      "binary": {
+        "f1_score": 0.5868830290736985
+      }
+    },
+    "size_reduction": "46.2%"
+  },
+  "int8_dynamic": {
+    "size_mb": 4.17727737426758,
+    "cpu_time_ms": 6.115472316741943,
+    "cpu_fps": 163.51966752631077,
+    "metrics": {
+      "multiclass": {
+        "accuracy": 0.8372868316450827
+      },
+      "balanced_accuracy": 0.7546762707091864,
+      "precision": 0.901669026723002,
+      "recall": 0.8372868316450827,
+      "binary": {
+        "f1_score": 0.5893098782138024
+      }
+    },
+    "size_reduction": "16.3%"
+  }
+}

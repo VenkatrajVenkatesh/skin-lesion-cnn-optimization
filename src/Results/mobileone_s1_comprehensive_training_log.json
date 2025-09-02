@@ -1,0 +1,842 @@
+[
+    {
+        "epoch": 1,
+        "train_loss": 1.4146030995860157,
+        "composite_score": 0.2464831473563346,
+        "epoch_time": 102.2637529373169,
+        "val_loss": 1.3449627375993571,
+        "multiclass_accuracy": 0.40133350429542247,
+        "multiclass_balanced_accuracy": 0.416285854988936,
+        "multiclass_macro_f1": 0.251658270912731,
+        "multiclass_weighted_f1": 0.478293719699244,
+        "multiclass_macro_precision": 0.3065460786319891,
+        "multiclass_macro_recall": 0.416285854988936,
+        "per_class_f1": [
+            0.5193806727175654,
+            0.2051395657953035,
+            0.28211284513805523,
+            0.0
+        ],
+        "per_class_precision": [
+            0.9122280570142536,
+            0.11763211382113821,
+            0.19632414369256473,
+            0.0
+        ],
+        "per_class_recall": [
+            0.3630392595909837,
+            0.801038062283737,
+            0.5010660980810234,
+            0.0
+        ],
+        "multiclass_confusion_matrix": [
+            [
+                2432,
+                3332,
+                935,
+                0
+            ],
+            [
+                94,
+                463,
+                21,
+                0
+            ],
+            [
+                115,
+                119,
+                235,
+                0
+            ],
+            [
+                25,
+                22,
+                6,
+                0
+            ]
+        ],
+        "multiclass_roc_auc": 0.6732310202525531,
+        "per_class_roc_auc": [
+            0.6304040630216179,
+            0.7282633696700656,
+            0.7371962056798449,
+            0.5970604426386839
+        ],
+        "binary_accuracy": 0.4228747275291704,
+        "binary_balanced_accuracy": 0.5751559934318555,
+        "binary_f1": 0.2778758222364832,
+        "binary_precision": 0.16871225404247028,
+        "binary_recall": 0.7872727272727272,
+        "binary_specificity": 0.3630392595909837,
+        "binary_roc_auc": 0.6304038594634206,
+        "binary_confusion_matrix": [
+            [
+                2432,
+                4267
+            ],
+            [
+                234,
+                866
+            ]
+        ],
+        "model_name": "mobileone",
+        "model_size_MB": 0,
+        "inference_speed_img_per_sec": 259.08
+    },
+    {
+        "epoch": 2,
+        "train_loss": 1.35236644610224,
+        "composite_score": 0.22018784798555027,
+        "epoch_time": 102.06104373931885,
+        "val_loss": 1.449346034497511,
+        "multiclass_accuracy": 0.6700859084498012,
+        "multiclass_balanced_accuracy": 0.28883707759613053,
+        "multiclass_macro_f1": 0.26541181151481763,
+        "multiclass_weighted_f1": 0.7171756972813906,
+        "multiclass_macro_precision": 0.2705240217572431,
+        "multiclass_macro_recall": 0.28883707759613053,
+        "per_class_f1": [
+            0.8141077495550881,
+            0.24081115335868186,
+            0.0,
+            0.00672834314550042
+        ],
+        "per_class_precision": [
+            0.888574960268409,
+            0.19,
+            0.0,
+            0.0035211267605633804
+        ],
+        "per_class_recall": [
+            0.7511568890879236,
+            0.328719723183391,
+            0.0,
+            0.07547169811320754
+        ],
+        "multiclass_confusion_matrix": [
+            [
+                5032,
+                779,
+                0,
+                888
+            ],
+            [
+                370,
+                190,
+                0,
+                18
+            ],
+            [
+                215,
+                28,
+                0,
+                226
+            ],
+            [
+                46,
+                3,
+                0,
+                4
+            ]
+        ],
+        "multiclass_roc_auc": 0.6442477309026664,
+        "per_class_roc_auc": [
+            0.5956315732334541,
+            0.7302377389285097,
+            0.7019032686887139,
+            0.549218342759988
+        ],
+        "binary_accuracy": 0.7053468393383767,
+        "binary_balanced_accuracy": 0.58876026272578,
+        "binary_f1": 0.28986402966625463,
+        "binary_precision": 0.21956928838951312,
+        "binary_recall": 0.4263636363636364,
+        "binary_specificity": 0.7511568890879236,
+        "binary_roc_auc": 0.5956314375279893,
+        "binary_confusion_matrix": [
+            [
+                5032,
+                1667
+            ],
+            [
+                631,
+                469
+            ]
+        ],
+        "model_name": "mobileone",
+        "model_size_MB": 16.49,
+        "inference_speed_img_per_sec": 260.07
+    },
+    {
+        "epoch": 3,
+        "train_loss": 1.3227746471852424,
+        "composite_score": 0.2919824590604673,
+        "epoch_time": 102.2533438205719,
+        "val_loss": 1.2780682913592605,
+        "multiclass_accuracy": 0.7509937171432235,
+        "multiclass_balanced_accuracy": 0.3907155133500883,
+        "multiclass_macro_f1": 0.3624412005721973,
+        "multiclass_weighted_f1": 0.7712313111882004,
+        "multiclass_macro_precision": 0.3492740536980351,
+        "multiclass_macro_recall": 0.3907155133500883,
+        "per_class_f1": [
+            0.8520682402430474,
+            0.24319419237749546,
+            0.35450236966824644,
+            0.0
+        ],
+        "per_class_precision": [
+            0.8910068426197458,
+            0.1869767441860465,
+            0.3191126279863481,
+            0.0
+        ],
+        "per_class_recall": [
+            0.8163905060456784,
+            0.3477508650519031,
+            0.39872068230277186,
+            0.0
+        ],
+        "multiclass_confusion_matrix": [
+            [
+                5469,
+                838,
+                392,
+                0
+            ],
+            [
+                370,
+                201,
+                7,
+                0
+            ],
+            [
+                250,
+                32,
+                187,
+                0
+            ],
+            [
+                49,
+                4,
+                0,
+                0
+            ]
+        ],
+        "multiclass_roc_auc": 0.6727368191288855,
+        "per_class_roc_auc": [
+            0.6341485160607417,
+            0.7350351172018943,
+            0.7332919305247296,
+            0.5884717127281762
+        ],
+        "binary_accuracy": 0.756507244518528,
+        "binary_balanced_accuracy": 0.6041043439319301,
+        "binary_f1": 0.3122057225642883,
+        "binary_precision": 0.25948223961468997,
+        "binary_recall": 0.39181818181818184,
+        "binary_specificity": 0.8163905060456784,
+        "binary_roc_auc": 0.6341485839134742,
+        "binary_confusion_matrix": [
+            [
+                5469,
+                1230
+            ],
+            [
+                669,
+                431
+            ]
+        ],
+        "model_name": "mobileone",
+        "model_size_MB": 16.49,
+        "inference_speed_img_per_sec": 256.16
+    },
+    {
+        "epoch": 4,
+        "train_loss": 1.3329663149204598,
+        "composite_score": 0.2915607446389303,
+        "epoch_time": 103.35959911346436,
+        "val_loss": 1.2773524798819276,
+        "multiclass_accuracy": 0.7708680600076933,
+        "multiclass_balanced_accuracy": 0.3820370354223579,
+        "multiclass_macro_f1": 0.3677828352163311,
+        "multiclass_weighted_f1": 0.7834683805210323,
+        "multiclass_macro_precision": 0.36287055305673205,
+        "multiclass_macro_recall": 0.3820370354223579,
+        "per_class_f1": [
+            0.8657379056950398,
+            0.24552429667519182,
+            0.35986913849509267,
+            0.0
+        ],
+        "per_class_precision": [
+            0.8884524744697565,
+            0.1947261663286004,
+            0.36830357142857145,
+            0.0
+        ],
+        "per_class_recall": [
+            0.8441558441558441,
+            0.33217993079584773,
+            0.35181236673773986,
+            0.0
+        ],
+        "multiclass_confusion_matrix": [
+            [
+                5655,
+                764,
+                280,
+                0
+            ],
+            [
+                383,
+                192,
+                3,
+                0
+            ],
+            [
+                277,
+                27,
+                165,
+                0
+            ],
+            [
+                50,
+                3,
+                0,
+                0
+            ]
+        ],
+        "multiclass_roc_auc": 0.6711655227919151,
+        "per_class_roc_auc": [
+            0.6417814056372051,
+            0.7356362569955277,
+            0.7353022453509107,
+            0.571942183184017
+        ],
+        "binary_accuracy": 0.7750993717143223,
+        "binary_balanced_accuracy": 0.5993506493506493,
+        "binary_f1": 0.30781373322809785,
+        "binary_precision": 0.2719665271966527,
+        "binary_recall": 0.35454545454545455,
+        "binary_specificity": 0.8441558441558441,
+        "binary_roc_auc": 0.641781880606332,
+        "binary_confusion_matrix": [
+            [
+                5655,
+                1044
+            ],
+            [
+                710,
+                390
+            ]
+        ],
+        "model_name": "mobileone",
+        "model_size_MB": 16.49,
+        "inference_speed_img_per_sec": 257.92
+    },
+    {
+        "epoch": 5,
+        "train_loss": 1.3256940663938064,
+        "composite_score": 0.28634638205380264,
+        "epoch_time": 102.01962471008301,
+        "val_loss": 1.2900011276856798,
+        "multiclass_accuracy": 0.7134247980510322,
+        "multiclass_balanced_accuracy": 0.40147887327364,
+        "multiclass_macro_f1": 0.3467973866856179,
+        "multiclass_weighted_f1": 0.7456446570206845,
+        "multiclass_macro_precision": 0.3291405784577699,
+        "multiclass_macro_recall": 0.40147887327364,
+        "per_class_f1": [
+            0.8244937319189971,
+            0.25775075987841944,
+            0.30494505494505497,
+            0.0
+        ],
+        "per_class_precision": [
+            0.8929503916449086,
+            0.19868791002811623,
+            0.22492401215805471,
+            0.0
+        ],
+        "per_class_recall": [
+            0.7657859381997313,
+            0.36678200692041524,
+            0.47334754797441364,
+            0.0
+        ],
+        "multiclass_confusion_matrix": [
+            [
+                5130,
+                820,
+                749,
+                0
+            ],
+            [
+                353,
+                212,
+                13,
+                0
+            ],
+            [
+                215,
+                32,
+                222,
+                0
+            ],
+            [
+                47,
+                3,
+                3,
+                0
+            ]
+        ],
+        "multiclass_roc_auc": 0.67941610890346,
+        "per_class_roc_auc": [
+            0.6316068884093963,
+            0.7353258637700786,
+            0.7351565113431091,
+            0.6155751720912559
+        ],
+        "binary_accuracy": 0.7199640979612771,
+        "binary_balanced_accuracy": 0.6033475145544112,
+        "binary_f1": 0.30754597336715284,
+        "binary_precision": 0.23612463485881208,
+        "binary_recall": 0.4409090909090909,
+        "binary_specificity": 0.7657859381997313,
+        "binary_roc_auc": 0.6316068884093963,
+        "binary_confusion_matrix": [
+            [
+                5130,
+                1569
+            ],
+            [
+                615,
+                485
+            ]
+        ],
+        "model_name": "mobileone",
+        "model_size_MB": 16.49,
+        "inference_speed_img_per_sec": 255.68
+    },
+    {
+        "epoch": 6,
+        "train_loss": 1.3167079835232482,
+        "composite_score": 0.2847274045455621,
+        "epoch_time": 103.70470213890076,
+        "val_loss": 1.2878228434529462,
+        "multiclass_accuracy": 0.6488011283497884,
+        "multiclass_balanced_accuracy": 0.4196460444744143,
+        "multiclass_macro_f1": 0.33230839485511476,
+        "multiclass_weighted_f1": 0.7008616300347843,
+        "multiclass_macro_precision": 0.3214514378367631,
+        "multiclass_macro_recall": 0.4196460444744143,
+        "per_class_f1": [
+            0.7727427597955707,
+            0.2607514712539611,
+            0.2957393483709273,
+            0.0
+        ],
+        "per_class_precision": [
+            0.899821463995239,
+            0.17657878602084612,
+            0.20940550133096716,
+            0.0
+        ],
+        "per_class_recall": [
+            0.677115987460815,
+            0.4982698961937716,
+            0.5031982942430704,
+            0.0
+        ],
+        "multiclass_confusion_matrix": [
+            [
+                4536,
+                1292,
+                871,
+                0
+            ],
+            [
+                273,
+                288,
+                17,
+                0
+            ],
+            [
+                188,
+                45,
+                236,
+                0
+            ],
+            [
+                44,
+                6,
+                3,
+                0
+            ]
+        ],
+        "multiclass_roc_auc": 0.6742363796356963,
+        "per_class_roc_auc": [
+            0.6220951566719592,
+            0.7362147552146301,
+            0.7402403302140632,
+            0.5983952764421321
+        ],
+        "binary_accuracy": 0.6579048595973843,
+        "binary_balanced_accuracy": 0.609012539184953,
+        "binary_f1": 0.3084499740798341,
+        "binary_precision": 0.21573604060913706,
+        "binary_recall": 0.5409090909090909,
+        "binary_specificity": 0.677115987460815,
+        "binary_roc_auc": 0.6220951566719592,
+        "binary_confusion_matrix": [
+            [
+                4536,
+                2163
+            ],
+            [
+                505,
+                595
+            ]
+        ],
+        "model_name": "mobileone",
+        "model_size_MB": 16.49,
+        "inference_speed_img_per_sec": 255.88
+    },
+    {
+        "epoch": 7,
+        "train_loss": 1.3127490712038006,
+        "composite_score": 0.2844251521501523,
+        "epoch_time": 102.67954587936401,
+        "val_loss": 1.2758128255849979,
+        "multiclass_accuracy": 0.6568790870624439,
+        "multiclass_balanced_accuracy": 0.41825988915799384,
+        "multiclass_macro_f1": 0.33297214544359954,
+        "multiclass_weighted_f1": 0.7065591126612428,
+        "multiclass_macro_precision": 0.3206883557769475,
+        "multiclass_macro_recall": 0.41825988915799384,
+        "per_class_f1": [
+            0.7795435333896872,
+            0.2682803832576904,
+            0.2840646651270208,
+            0.0
+        ],
+        "per_class_precision": [
+            0.8986552328980706,
+            0.1893238434163701,
+            0.19477434679334918,
+            0.0
+        ],
+        "per_class_recall": [
+            0.6883116883116883,
+            0.4602076124567474,
+            0.5245202558635395,
+            0.0
+        ],
+        "multiclass_confusion_matrix": [
+            [
+                4611,
+                1097,
+                991,
+                0
+            ],
+            [
+                292,
+                266,
+                20,
+                0
+            ],
+            [
+                185,
+                38,
+                246,
+                0
+            ],
+            [
+                43,
+                4,
+                6,
+                0
+            ]
+        ],
+        "multiclass_roc_auc": 0.675045497144869,
+        "per_class_roc_auc": [
+            0.6283842907353879,
+            0.739227162797473,
+            0.739689973442086,
+            0.5928805616045287
+        ],
+        "binary_accuracy": 0.6655981536094371,
+        "binary_balanced_accuracy": 0.6077922077922078,
+        "binary_f1": 0.3078556263269639,
+        "binary_precision": 0.21739130434782608,
+        "binary_recall": 0.5272727272727272,
+        "binary_specificity": 0.6883116883116883,
+        "binary_roc_auc": 0.6283842907353878,
+        "binary_confusion_matrix": [
+            [
+                4611,
+                2088
+            ],
+            [
+                520,
+                580
+            ]
+        ],
+        "model_name": "mobileone",
+        "model_size_MB": 16.49,
+        "inference_speed_img_per_sec": 254.28
+    },
+    {
+        "epoch": 8,
+        "train_loss": 1.3116927614143814,
+        "composite_score": 0.29040390532747906,
+        "epoch_time": 102.72701001167297,
+        "val_loss": 1.2878117801957443,
+        "multiclass_accuracy": 0.7425310937299654,
+        "multiclass_balanced_accuracy": 0.399085538531193,
+        "multiclass_macro_f1": 0.35583500205777857,
+        "multiclass_weighted_f1": 0.7646339038663929,
+        "multiclass_macro_precision": 0.3381481826764713,
+        "multiclass_macro_recall": 0.399085538531193,
+        "per_class_f1": [
+            0.8454352774943088,
+            0.2639593908629442,
+            0.31394533987386125,
+            0.0
+        ],
+        "per_class_precision": [
+            0.8915562913907285,
+            0.2272159800249688,
+            0.23382045929018788,
+            0.0
+        ],
+        "per_class_recall": [
+            0.8038513210927004,
+            0.314878892733564,
+            0.47761194029850745,
+            0.0
+        ],
+        "multiclass_confusion_matrix": [
+            [
+                5385,
+                594,
+                720,
+                0
+            ],
+            [
+                383,
+                182,
+                13,
+                0
+            ],
+            [
+                223,
+                22,
+                224,
+                0
+            ],
+            [
+                49,
+                3,
+                1,
+                0
+            ]
+        ],
+        "multiclass_roc_auc": 0.6646915775727581,
+        "per_class_roc_auc": [
+            0.6049885328882194,
+            0.745035864733244,
+            0.7339814763640382,
+            0.5747604363055308
+        ],
+        "binary_accuracy": 0.7475317348377997,
+        "binary_balanced_accuracy": 0.6041983878190775,
+        "binary_f1": 0.31129765652325986,
+        "binary_precision": 0.25298465036952816,
+        "binary_recall": 0.40454545454545454,
+        "binary_specificity": 0.8038513210927004,
+        "binary_roc_auc": 0.604988465035487,
+        "binary_confusion_matrix": [
+            [
+                5385,
+                1314
+            ],
+            [
+                655,
+                445
+            ]
+        ],
+        "model_name": "mobileone",
+        "model_size_MB": 16.49,
+        "inference_speed_img_per_sec": 256.35
+    },
+    {
+        "epoch": 9,
+        "train_loss": 1.3110723322234958,
+        "composite_score": 0.2808345881172975,
+        "epoch_time": 103.92545819282532,
+        "val_loss": 1.3014379215777898,
+        "multiclass_accuracy": 0.6741889985895627,
+        "multiclass_balanced_accuracy": 0.40769072276996204,
+        "multiclass_macro_f1": 0.3337534439528438,
+        "multiclass_weighted_f1": 0.7185982475672847,
+        "multiclass_macro_precision": 0.321074726086761,
+        "multiclass_macro_recall": 0.40769072276996204,
+        "per_class_f1": [
+            0.7942909302132604,
+            0.2733374008541794,
+            0.26738544474393533,
+            0.0
+        ],
+        "per_class_precision": [
+            0.8942451420029895,
+            0.2111215834118756,
+            0.17893217893217894,
+            0.0
+        ],
+        "per_class_recall": [
+            0.7144349902970593,
+            0.3875432525951557,
+            0.5287846481876333,
+            0.0
+        ],
+        "multiclass_confusion_matrix": [
+            [
+                4786,
+                805,
+                1108,
+                0
+            ],
+            [
+                332,
+                224,
+                22,
+                0
+            ],
+            [
+                192,
+                29,
+                248,
+                0
+            ],
+            [
+                42,
+                3,
+                8,
+                0
+            ]
+        ],
+        "multiclass_roc_auc": 0.6580517735494675,
+        "per_class_roc_auc": [
+            0.5932840722495896,
+            0.739167264452153,
+            0.7382023811947862,
+            0.5615533763013412
+        ],
+        "binary_accuracy": 0.6821387357353507,
+        "binary_balanced_accuracy": 0.5999447678758023,
+        "binary_f1": 0.3010995207217367,
+        "binary_precision": 0.21822639967306906,
+        "binary_recall": 0.48545454545454547,
+        "binary_specificity": 0.7144349902970593,
+        "binary_roc_auc": 0.5932840722495895,
+        "binary_confusion_matrix": [
+            [
+                4786,
+                1913
+            ],
+            [
+                566,
+                534
+            ]
+        ],
+        "model_name": "mobileone",
+        "model_size_MB": 16.49,
+        "inference_speed_img_per_sec": 253.23
+    },
+    {
+        "epoch": 10,
+        "train_loss": 1.3050143673836467,
+        "composite_score": 0.291710466317875,
+        "epoch_time": 103.11462879180908,
+        "val_loss": 1.2820161508976435,
+        "multiclass_accuracy": 0.6632901654058213,
+        "multiclass_balanced_accuracy": 0.42224783696453805,
+        "multiclass_macro_f1": 0.3414829078182577,
+        "multiclass_weighted_f1": 0.7126566996131337,
+        "multiclass_macro_precision": 0.3299615838966888,
+        "multiclass_macro_recall": 0.42224783696453805,
+        "per_class_f1": [
+            0.7846712247826454,
+            0.26500857632933106,
+            0.3162518301610542,
+            0.0
+        ],
+        "per_class_precision": [
+            0.9028749028749029,
+            0.17616875712656785,
+            0.2408026755852843,
+            0.0
+        ],
+        "per_class_recall": [
+            0.6938349007314525,
+            0.5346020761245674,
+            0.4605543710021322,
+            0.0
+        ],
+        "multiclass_confusion_matrix": [
+            [
+                4648,
+                1384,
+                667,
+                0
+            ],
+            [
+                257,
+                309,
+                12,
+                0
+            ],
+            [
+                199,
+                54,
+                216,
+                0
+            ],
+            [
+                44,
+                7,
+                2,
+                0
+            ]
+        ],
+        "multiclass_roc_auc": 0.671373592049229,
+        "per_class_roc_auc": [
+            0.6334701922946437,
+            0.7354233782762597,
+            0.736773838854839,
+            0.5798269587711734
+        ],
+        "binary_accuracy": 0.6729067829208873,
+        "binary_balanced_accuracy": 0.6196447230929989,
+        "binary_f1": 0.3199146894161557,
+        "binary_precision": 0.22632968691059976,
+        "binary_recall": 0.5454545454545454,
+        "binary_specificity": 0.6938349007314525,
+        "binary_roc_auc": 0.6334701922946436,
+        "binary_confusion_matrix": [
+            [
+                4648,
+                2051
+            ],
+            [
+                500,
+                600
+            ]
+        ],
+        "model_name": "mobileone",
+        "model_size_MB": 16.49,
+        "inference_speed_img_per_sec": 254.65
+    }
+]

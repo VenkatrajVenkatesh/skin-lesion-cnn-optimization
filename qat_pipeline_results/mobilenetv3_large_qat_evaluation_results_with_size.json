@@ -1,0 +1,331 @@
+{
+    "original_fp32": {
+        "epoch": "ORIGINAL",
+        "multiclass": {
+            "accuracy": 0.8074112065649443,
+            "balanced_accuracy": 0.766587640230139,
+            "per_class_precision": [
+                0.9707885304659498,
+                0.27226137091607944,
+                0.8997867803837953,
+                0.1746031746031746
+            ],
+            "per_class_recall": [
+                0.8086281534557397,
+                0.7352941176470589,
+                0.8997867803837953,
+                0.6226415094339622
+            ],
+            "per_class_f1": [
+                0.8823194071178435,
+                0.39738195418419825,
+                0.8997867803837953,
+                0.2727272727272727
+            ],
+            "macro_precision": 0.5793599640922498,
+            "macro_recall": 0.766587640230139,
+            "macro_f1": 0.6130538536032775,
+            "weighted_precision": 0.9093388134677343,
+            "weighted_recall": 0.8074112065649443,
+            "weighted_f1": 0.8432874757347666,
+            "confusion_matrix": [
+                [
+                    5417,
+                    1111,
+                    42,
+                    129
+                ],
+                [
+                    133,
+                    425,
+                    3,
+                    17
+                ],
+                [
+                    18,
+                    19,
+                    422,
+                    10
+                ],
+                [
+                    12,
+                    6,
+                    2,
+                    33
+                ]
+            ],
+            "roc_auc_ovr": 0.919797899473175,
+            "per_class_roc_auc": [
+                0.9125524840885342,
+                0.8540134766485104,
+                0.9808945915520817,
+                0.9317310456035739
+            ],
+            "per_class_support": [
+                6699.0,
+                578.0,
+                469.0,
+                53.0
+            ]
+        },
+        "binary": {
+            "accuracy": 0.8147198358763944,
+            "balanced_accuracy": 0.8302231676369607,
+            "precision": 0.42226228030644436,
+            "recall": 0.8518181818181818,
+            "f1_score": 0.5646278999698704,
+            "confusion_matrix": [
+                [
+                    5417,
+                    1282
+                ],
+                [
+                    163,
+                    937
+                ]
+            ],
+            "specificity": 0.8086281534557397,
+            "true_positives": 937,
+            "true_negatives": 5417,
+            "false_positives": 1282,
+            "false_negatives": 163,
+            "roc_auc": 0.9125526197939992,
+            "target_distribution": {
+                "useful_samples": 6699,
+                "not_useful_samples": 1100
+            },
+            "prediction_distribution": {
+                "predicted_useful": 5580,
+                "predicted_not_useful": 2219
+            }
+        },
+        "speed": {
+            "batches_measured": 100,
+            "avg_latency_ms": 18.141620048554614,
+            "p50_latency_ms": 18.32015800755471,
+            "p95_latency_ms": 18.48175103077665,
+            "throughput_img_s": 3527.7996027206527
+        }
+    },
+    "qat_fp32": {
+        "epoch": "QAT",
+        "multiclass": {
+            "accuracy": 0.8261315553276061,
+            "balanced_accuracy": 0.7808187535948531,
+            "per_class_precision": [
+                0.9669949887679281,
+                0.31679073614557485,
+                0.8875,
+                0.11764705882352941
+            ],
+            "per_class_recall": [
+                0.8353485594864906,
+                0.6626297577854672,
+                0.908315565031983,
+                0.7169811320754716
+            ],
+            "per_class_f1": [
+                0.8963639275989108,
+                0.4286513710128707,
+                0.8977871443624869,
+                0.20212765957446807
+            ],
+            "macro_precision": 0.572233195934258,
+            "macro_recall": 0.7808187535948531,
+            "macro_f1": 0.6062325256371841,
+            "weighted_precision": 0.9082545543487806,
+            "weighted_recall": 0.8261315553276061,
+            "weighted_f1": 0.857068519052955,
+            "confusion_matrix": [
+                [
+                    5596,
+                    808,
+                    48,
+                    247
+                ],
+                [
+                    168,
+                    383,
+                    4,
+                    23
+                ],
+                [
+                    14,
+                    14,
+                    426,
+                    15
+                ],
+                [
+                    9,
+                    4,
+                    2,
+                    38
+                ]
+            ],
+            "roc_auc_ovr": 0.9181009939198287,
+            "per_class_roc_auc": [
+                0.9077727340580005,
+                0.8461477457377535,
+                0.9805167303222728,
+                0.9379667655612879
+            ],
+            "per_class_support": [
+                6699.0,
+                578.0,
+                469.0,
+                53.0
+            ]
+        },
+        "binary": {
+            "accuracy": 0.834081292473394,
+            "balanced_accuracy": 0.8308560979250634,
+            "precision": 0.4517892644135189,
+            "recall": 0.8263636363636364,
+            "f1_score": 0.5841902313624678,
+            "confusion_matrix": [
+                [
+                    5596,
+                    1103
+                ],
+                [
+                    191,
+                    909
+                ]
+            ],
+            "specificity": 0.8353485594864906,
+            "true_positives": 909,
+            "true_negatives": 5596,
+            "false_positives": 1103,
+            "false_negatives": 191,
+            "roc_auc": 0.9077727340580004,
+            "target_distribution": {
+                "useful_samples": 6699,
+                "not_useful_samples": 1100
+            },
+            "prediction_distribution": {
+                "predicted_useful": 5787,
+                "predicted_not_useful": 2012
+            }
+        },
+        "speed": {
+            "batches_measured": 100,
+            "avg_latency_ms": 18.825569180189632,
+            "p50_latency_ms": 18.87660546344705,
+            "p95_latency_ms": 19.163846969604492,
+            "throughput_img_s": 3399.6316067483344
+        }
+    },
+    "quantized_int8": {
+        "epoch": "QUANTIZED",
+        "multiclass": {
+            "accuracy": 0.8293370944992948,
+            "balanced_accuracy": 0.7810618378572721,
+            "per_class_precision": [
+                0.9671482628138975,
+                0.31986531986531985,
+                0.8914405010438413,
+                0.11949685534591195
+            ],
+            "per_class_recall": [
+                0.8393790117928049,
+                0.657439446366782,
+                0.9104477611940298,
+                0.7169811320754716
+            ],
+            "per_class_f1": [
+                0.8987453048829218,
+                0.43035107587768967,
+                0.9008438818565401,
+                0.20485175202156333
+            ],
+            "macro_precision": 0.5744877347672427,
+            "macro_recall": 0.7810618378572721,
+            "macro_f1": 0.6086980036596787,
+            "weighted_precision": 0.9088636101801961,
+            "weighted_recall": 0.8293370944992948,
+            "weighted_f1": 0.8594423185941605,
+            "confusion_matrix": [
+                [
+                    5623,
+                    788,
+                    46,
+                    242
+                ],
+                [
+                    170,
+                    380,
+                    4,
+                    24
+                ],
+                [
+                    14,
+                    14,
+                    427,
+                    14
+                ],
+                [
+                    7,
+                    6,
+                    2,
+                    38
+                ]
+            ],
+            "roc_auc_ovr": 0.9180911314196694,
+            "per_class_roc_auc": [
+                0.9080661292730259,
+                0.8471032441423013,
+                0.9805839250444329,
+                0.9366112272189178
+            ],
+            "per_class_support": [
+                6699.0,
+                578.0,
+                469.0,
+                53.0
+            ]
+        },
+        "binary": {
+            "accuracy": 0.8375432747788178,
+            "balanced_accuracy": 0.8328713240782206,
+            "precision": 0.4579345088161209,
+            "recall": 0.8263636363636364,
+            "f1_score": 0.5893030794165316,
+            "confusion_matrix": [
+                [
+                    5623,
+                    1076
+                ],
+                [
+                    191,
+                    909
+                ]
+            ],
+            "specificity": 0.8393790117928049,
+            "true_positives": 909,
+            "true_negatives": 5623,
+            "false_positives": 1076,
+            "false_negatives": 191,
+            "roc_auc": 0.9080662649784907,
+            "target_distribution": {
+                "useful_samples": 6699,
+                "not_useful_samples": 1100
+            },
+            "prediction_distribution": {
+                "predicted_useful": 5814,
+                "predicted_not_useful": 1985
+            }
+        },
+        "speed": {
+            "batches_measured": 100,
+            "avg_latency_ms": 401.21087687904947,
+            "p50_latency_ms": 398.840742505854,
+            "p95_latency_ms": 447.2433709888719,
+            "throughput_img_s": 159.5171110460539
+        }
+    },
+    "model_sizes": {
+        "original_fp32_mb": 13.422255516052246,
+        "qat_fp32_mb": 13.422086219787598,
+        "quantized_int8_mb": 12.034701347351074
+    }
+}

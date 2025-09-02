@@ -1,0 +1,84 @@
+{
+    "epoch": 10,
+    "train_loss": 0.644649949059429,
+    "composite_score": 0.5579434969835192,
+    "epoch_time": 103.64060544967651,
+    "val_loss": 0.6218523954148175,
+    "multiclass_accuracy": 0.8133093986408514,
+    "multiclass_balanced_accuracy": 0.734651279268961,
+    "multiclass_macro_f1": 0.596316150232912,
+    "multiclass_weighted_f1": 0.845545100545527,
+    "multiclass_macro_precision": 0.5567723459991429,
+    "multiclass_macro_recall": 0.734651279268961,
+    "per_class_f1": [
+        0.8874001130034708,
+        0.3880747852450733,
+        0.8812182741116751,
+        0.22857142857142856
+    ],
+    "per_class_precision": [
+        0.9660808435852373,
+        0.2740899357601713,
+        0.8410852713178295,
+        0.14583333333333334
+    ],
+    "per_class_recall": [
+        0.8205702343633378,
+        0.6643598615916955,
+        0.9253731343283582,
+        0.5283018867924528
+    ],
+    "multiclass_confusion_matrix": [
+        [
+            5497,
+            983,
+            75,
+            144
+        ],
+        [
+            172,
+            384,
+            6,
+            16
+        ],
+        [
+            13,
+            18,
+            434,
+            4
+        ],
+        [
+            8,
+            16,
+            1,
+            28
+        ]
+    ],
+    "multiclass_roc_auc": 0.8999894200501561,
+    "per_class_roc_auc": [
+        0.8978928333944008,
+        0.8329048205709126,
+        0.9818998944082937,
+        0.8872601318270174
+    ],
+    "binary_accuracy": 0.8211309142197718,
+    "binary_balanced_accuracy": 0.8225578444543962,
+    "binary_f1": 0.565285135556248,
+    "binary_precision": 0.4300616405879564,
+    "binary_recall": 0.8245454545454546,
+    "binary_specificity": 0.8205702343633378,
+    "binary_roc_auc": 0.8978928333944007,
+    "binary_confusion_matrix": [
+        [
+            5497,
+            1202
+        ],
+        [
+            193,
+            907
+        ]
+    ],
+    "model_name": "efficientnet_b0",
+    "model_size_MB": 18.09,
+    "inference_speed_img_per_sec": 256.42
+}

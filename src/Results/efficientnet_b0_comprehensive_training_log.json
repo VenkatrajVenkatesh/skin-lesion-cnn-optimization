@@ -1,0 +1,842 @@
+[
+    {
+        "epoch": 1,
+        "train_loss": 1.0113246335636779,
+        "composite_score": 0.5108282321949456,
+        "epoch_time": 101.79534912109375,
+        "val_loss": 0.7387638143950799,
+        "multiclass_accuracy": 0.7774073599179382,
+        "multiclass_balanced_accuracy": 0.6907565191571874,
+        "multiclass_macro_f1": 0.5533664085423402,
+        "multiclass_weighted_f1": 0.8188421005693495,
+        "multiclass_macro_precision": 0.5251159202207658,
+        "multiclass_macro_recall": 0.6907565191571874,
+        "per_class_f1": [
+            0.8639908068620209,
+            0.34032634032634035,
+            0.8367346938775511,
+            0.1724137931034483
+        ],
+        "per_class_precision": [
+            0.9597009482129832,
+            0.23292916400765795,
+            0.8023483365949119,
+            0.10548523206751055
+        ],
+        "per_class_recall": [
+            0.7856396477086133,
+            0.6314878892733564,
+            0.8742004264392325,
+            0.4716981132075472
+        ],
+        "multiclass_confusion_matrix": [
+            [
+                5263,
+                1158,
+                97,
+                181
+            ],
+            [
+                187,
+                365,
+                3,
+                23
+            ],
+            [
+                22,
+                29,
+                410,
+                8
+            ],
+            [
+                12,
+                15,
+                1,
+                25
+            ]
+        ],
+        "multiclass_roc_auc": 0.8807212751732589,
+        "per_class_roc_auc": [
+            0.8726019487304755,
+            0.8002604619647903,
+            0.977409192587055,
+            0.8726134974107149
+        ],
+        "binary_accuracy": 0.7875368637004744,
+        "binary_balanced_accuracy": 0.7923652783997612,
+        "binary_f1": 0.514787701317716,
+        "binary_precision": 0.3796976241900648,
+        "binary_recall": 0.7990909090909091,
+        "binary_specificity": 0.7856396477086133,
+        "binary_roc_auc": 0.8726019487304755,
+        "binary_confusion_matrix": [
+            [
+                5263,
+                1436
+            ],
+            [
+                221,
+                879
+            ]
+        ],
+        "model_name": "efficientnet_b0",
+        "model_size_MB": 0,
+        "inference_speed_img_per_sec": 256.61
+    },
+    {
+        "epoch": 2,
+        "train_loss": 0.7853887268308416,
+        "composite_score": 0.5079893978100162,
+        "epoch_time": 101.94688510894775,
+        "val_loss": 0.677615429961779,
+        "multiclass_accuracy": 0.7627901012950378,
+        "multiclass_balanced_accuracy": 0.7437707377703249,
+        "multiclass_macro_f1": 0.5431104241584145,
+        "multiclass_weighted_f1": 0.8114975524699262,
+        "multiclass_macro_precision": 0.5162398007562271,
+        "multiclass_macro_recall": 0.7437707377703249,
+        "per_class_f1": [
+            0.8539848749272833,
+            0.36147074054893835,
+            0.8374384236453202,
+            0.11954765751211632
+        ],
+        "per_class_precision": [
+            0.963254593175853,
+            0.2579453067257945,
+            0.7783882783882784,
+            0.06537102473498234
+        ],
+        "per_class_recall": [
+            0.7669801462904912,
+            0.6038062283737025,
+            0.906183368869936,
+            0.6981132075471698
+        ],
+        "multiclass_confusion_matrix": [
+            [
+                5138,
+                981,
+                114,
+                466
+            ],
+            [
+                175,
+                349,
+                6,
+                48
+            ],
+            [
+                16,
+                13,
+                425,
+                15
+            ],
+            [
+                5,
+                10,
+                1,
+                37
+            ]
+        ],
+        "multiclass_roc_auc": 0.8882623044810293,
+        "per_class_roc_auc": [
+            0.8762159209651372,
+            0.804913605022644,
+            0.9820264299240495,
+            0.8898932620122864
+        ],
+        "binary_accuracy": 0.7747147070137197,
+        "binary_balanced_accuracy": 0.7943991640543364,
+        "binary_f1": 0.5071528751753156,
+        "binary_precision": 0.3667342799188641,
+        "binary_recall": 0.8218181818181818,
+        "binary_specificity": 0.7669801462904912,
+        "binary_roc_auc": 0.8762159209651372,
+        "binary_confusion_matrix": [
+            [
+                5138,
+                1561
+            ],
+            [
+                196,
+                904
+            ]
+        ],
+        "model_name": "efficientnet_b0",
+        "model_size_MB": 18.09,
+        "inference_speed_img_per_sec": 257.31
+    },
+    {
+        "epoch": 3,
+        "train_loss": 0.7482359032314944,
+        "composite_score": 0.5090863513254676,
+        "epoch_time": 102.11858868598938,
+        "val_loss": 0.6633354918878587,
+        "multiclass_accuracy": 0.7692011796384152,
+        "multiclass_balanced_accuracy": 0.7313419079007157,
+        "multiclass_macro_f1": 0.5453555997543035,
+        "multiclass_weighted_f1": 0.8145354417217733,
+        "multiclass_macro_precision": 0.5126880966845047,
+        "multiclass_macro_recall": 0.7313419079007157,
+        "per_class_f1": [
+            0.8576403283309841,
+            0.3625438157235854,
+            0.8334937439846006,
+            0.1277445109780439
+        ],
+        "per_class_precision": [
+            0.9645654606490116,
+            0.2551092318534179,
+            0.7596491228070176,
+            0.07142857142857142
+        ],
+        "per_class_recall": [
+            0.7720555306762203,
+            0.6262975778546713,
+            0.9232409381663113,
+            0.6037735849056604
+        ],
+        "multiclass_confusion_matrix": [
+            [
+                5172,
+                1033,
+                132,
+                362
+            ],
+            [
+                170,
+                362,
+                4,
+                42
+            ],
+            [
+                12,
+                12,
+                433,
+                12
+            ],
+            [
+                8,
+                12,
+                1,
+                32
+            ]
+        ],
+        "multiclass_roc_auc": 0.8891402070295013,
+        "per_class_roc_auc": [
+            0.879151230170039,
+            0.80950732892194,
+            0.9819185111278532,
+            0.8859837578981726
+        ],
+        "binary_accuracy": 0.7798435696884216,
+        "binary_balanced_accuracy": 0.7996641289744738,
+        "binary_f1": 0.5145603618886062,
+        "binary_precision": 0.37340993024210095,
+        "binary_recall": 0.8272727272727273,
+        "binary_specificity": 0.7720555306762203,
+        "binary_roc_auc": 0.8791512980227714,
+        "binary_confusion_matrix": [
+            [
+                5172,
+                1527
+            ],
+            [
+                190,
+                910
+            ]
+        ],
+        "model_name": "efficientnet_b0",
+        "model_size_MB": 18.09,
+        "inference_speed_img_per_sec": 253.77
+    },
+    {
+        "epoch": 4,
+        "train_loss": 0.7110794801265001,
+        "composite_score": 0.532594287284615,
+        "epoch_time": 101.93410611152649,
+        "val_loss": 0.6380265229915987,
+        "multiclass_accuracy": 0.7824080010257726,
+        "multiclass_balanced_accuracy": 0.7230165934552022,
+        "multiclass_macro_f1": 0.5698775097926557,
+        "multiclass_weighted_f1": 0.8226076150014048,
+        "multiclass_macro_precision": 0.5314083079881975,
+        "multiclass_macro_recall": 0.7230165934552022,
+        "per_class_f1": [
+            0.8652084193148989,
+            0.3642143505903724,
+            0.8493150684931506,
+            0.20077220077220076
+        ],
+        "per_class_precision": [
+            0.9676883308714919,
+            0.24692118226600984,
+            0.7848101265822784,
+            0.1262135922330097
+        ],
+        "per_class_recall": [
+            0.7823555754590238,
+            0.6937716262975778,
+            0.9253731343283582,
+            0.49056603773584906
+        ],
+        "multiclass_confusion_matrix": [
+            [
+                5241,
+                1191,
+                111,
+                156
+            ],
+            [
+                154,
+                401,
+                5,
+                18
+            ],
+            [
+                13,
+                16,
+                434,
+                6
+            ],
+            [
+                8,
+                16,
+                3,
+                26
+            ]
+        ],
+        "multiclass_roc_auc": 0.8937778911912251,
+        "per_class_roc_auc": [
+            0.8889699955217196,
+            0.8203881029427338,
+            0.9834453730179739,
+            0.8823080932824732
+        ],
+        "binary_accuracy": 0.7906141813052956,
+        "binary_balanced_accuracy": 0.8116323331840574,
+        "binary_f1": 0.5311513063451048,
+        "binary_precision": 0.38816617708770457,
+        "binary_recall": 0.8409090909090909,
+        "binary_specificity": 0.7823555754590238,
+        "binary_roc_auc": 0.8889699955217197,
+        "binary_confusion_matrix": [
+            [
+                5241,
+                1458
+            ],
+            [
+                175,
+                925
+            ]
+        ],
+        "model_name": "efficientnet_b0",
+        "model_size_MB": 18.09,
+        "inference_speed_img_per_sec": 258.55
+    },
+    {
+        "epoch": 5,
+        "train_loss": 0.7026438190411013,
+        "composite_score": 0.5407159990085592,
+        "epoch_time": 103.71694684028625,
+        "val_loss": 0.6324212039347554,
+        "multiclass_accuracy": 0.7879215284010771,
+        "multiclass_balanced_accuracy": 0.7462057424215992,
+        "multiclass_macro_f1": 0.5778381171039635,
+        "multiclass_weighted_f1": 0.8283621416883661,
+        "multiclass_macro_precision": 0.5464145786305369,
+        "multiclass_macro_recall": 0.7462057424215992,
+        "per_class_f1": [
+            0.8697220628023284,
+            0.3621595795508839,
+            0.8836251287332647,
+            0.19584569732937684
+        ],
+        "per_class_precision": [
+            0.9647144416151328,
+            0.2501650165016502,
+            0.8545816733067729,
+            0.11619718309859155
+        ],
+        "per_class_recall": [
+            0.7917599641737573,
+            0.6557093425605537,
+            0.9147121535181236,
+            0.6226415094339622
+        ],
+        "multiclass_confusion_matrix": [
+            [
+                5304,
+                1109,
+                68,
+                218
+            ],
+            [
+                172,
+                379,
+                4,
+                23
+            ],
+            [
+                13,
+                17,
+                429,
+                10
+            ],
+            [
+                9,
+                10,
+                1,
+                33
+            ]
+        ],
+        "multiclass_roc_auc": 0.8948306782288498,
+        "per_class_roc_auc": [
+            0.8891476339752202,
+            0.819108554490004,
+            0.9822157968683186,
+            0.888850727581856
+        ],
+        "binary_accuracy": 0.7962559302474677,
+        "binary_balanced_accuracy": 0.8076981639050604,
+        "binary_f1": 0.5327844751543663,
+        "binary_precision": 0.39374185136897,
+        "binary_recall": 0.8236363636363636,
+        "binary_specificity": 0.7917599641737573,
+        "binary_roc_auc": 0.8891476339752201,
+        "binary_confusion_matrix": [
+            [
+                5304,
+                1395
+            ],
+            [
+                194,
+                906
+            ]
+        ],
+        "model_name": "efficientnet_b0",
+        "model_size_MB": 18.09,
+        "inference_speed_img_per_sec": 256.78
+    },
+    {
+        "epoch": 6,
+        "train_loss": 0.6842541484813015,
+        "composite_score": 0.523956984694391,
+        "epoch_time": 103.00229668617249,
+        "val_loss": 0.6280067931311052,
+        "multiclass_accuracy": 0.7416335427618925,
+        "multiclass_balanced_accuracy": 0.7254074171336732,
+        "multiclass_macro_f1": 0.5619350308669716,
+        "multiclass_weighted_f1": 0.7946806686460874,
+        "multiclass_macro_precision": 0.5372785298580403,
+        "multiclass_macro_recall": 0.7254074171336732,
+        "per_class_f1": [
+            0.8338867603235419,
+            0.32860972807353506,
+            0.8751269035532995,
+            0.21011673151750973
+        ],
+        "per_class_precision": [
+            0.9704716607213635,
+            0.21101819970486965,
+            0.8352713178294574,
+            0.1323529411764706
+        ],
+        "per_class_recall": [
+            0.7310046275563516,
+            0.7422145328719724,
+            0.9189765458422174,
+            0.5094339622641509
+        ],
+        "multiclass_confusion_matrix": [
+            [
+                4897,
+                1563,
+                80,
+                159
+            ],
+            [
+                132,
+                429,
+                4,
+                13
+            ],
+            [
+                11,
+                22,
+                431,
+                5
+            ],
+            [
+                6,
+                19,
+                1,
+                27
+            ]
+        ],
+        "multiclass_roc_auc": 0.8969657020372359,
+        "per_class_roc_auc": [
+            0.8950582176444245,
+            0.8270010000627734,
+            0.9815711929535718,
+            0.8842323974881741
+        ],
+        "binary_accuracy": 0.7498397230414156,
+        "binary_balanced_accuracy": 0.797775041050903,
+        "binary_f1": 0.4936413184531534,
+        "binary_precision": 0.3454413367235743,
+        "binary_recall": 0.8645454545454545,
+        "binary_specificity": 0.7310046275563516,
+        "binary_roc_auc": 0.8950582176444246,
+        "binary_confusion_matrix": [
+            [
+                4897,
+                1802
+            ],
+            [
+                149,
+                951
+            ]
+        ],
+        "model_name": "efficientnet_b0",
+        "model_size_MB": 18.09,
+        "inference_speed_img_per_sec": 254.93
+    },
+    {
+        "epoch": 7,
+        "train_loss": 0.6661966955625868,
+        "composite_score": 0.5244038371105784,
+        "epoch_time": 103.37731599807739,
+        "val_loss": 0.6181373581534526,
+        "multiclass_accuracy": 0.7735607129119118,
+        "multiclass_balanced_accuracy": 0.7352709825446608,
+        "multiclass_macro_f1": 0.5613825766963432,
+        "multiclass_weighted_f1": 0.8176675877822367,
+        "multiclass_macro_precision": 0.5280797921272609,
+        "multiclass_macro_recall": 0.7352709825446608,
+        "per_class_f1": [
+            0.8589477183941484,
+            0.3668639053254438,
+            0.857707509881423,
+            0.16201117318435754
+        ],
+        "per_class_precision": [
+            0.9690547636909227,
+            0.24891908585546635,
+            0.7992633517495396,
+            0.09508196721311475
+        ],
+        "per_class_recall": [
+            0.7713091506194955,
+            0.6972318339100346,
+            0.9253731343283582,
+            0.5471698113207547
+        ],
+        "multiclass_confusion_matrix": [
+            [
+                5167,
+                1189,
+                102,
+                241
+            ],
+            [
+                146,
+                403,
+                6,
+                23
+            ],
+            [
+                11,
+                12,
+                434,
+                12
+            ],
+            [
+                8,
+                15,
+                1,
+                29
+            ]
+        ],
+        "multiclass_roc_auc": 0.8969975283784772,
+        "per_class_roc_auc": [
+            0.8927730733216628,
+            0.8263502644392149,
+            0.9821157320006865,
+            0.8867510437523446
+        ],
+        "binary_accuracy": 0.7824080010257726,
+        "binary_balanced_accuracy": 0.8106545753097477,
+        "binary_f1": 0.5242500700869077,
+        "binary_precision": 0.37900283745439806,
+        "binary_recall": 0.85,
+        "binary_specificity": 0.7713091506194955,
+        "binary_roc_auc": 0.8927730733216627,
+        "binary_confusion_matrix": [
+            [
+                5167,
+                1532
+            ],
+            [
+                165,
+                935
+            ]
+        ],
+        "model_name": "efficientnet_b0",
+        "model_size_MB": 18.09,
+        "inference_speed_img_per_sec": 255.63
+    },
+    {
+        "epoch": 8,
+        "train_loss": 0.6552808297551181,
+        "composite_score": 0.5243723080861923,
+        "epoch_time": 103.80312728881836,
+        "val_loss": 0.6226098114838365,
+        "multiclass_accuracy": 0.7734324913450442,
+        "multiclass_balanced_accuracy": 0.7234196201143168,
+        "multiclass_macro_f1": 0.5638654122281336,
+        "multiclass_weighted_f1": 0.8185257952376608,
+        "multiclass_macro_precision": 0.5374968421742518,
+        "multiclass_macro_recall": 0.7234196201143168,
+        "per_class_f1": [
+            0.8600116172931707,
+            0.3560302625723186,
+            0.8692070030895983,
+            0.1702127659574468
+        ],
+        "per_class_precision": [
+            0.9682361733931241,
+            0.2396644697423607,
+            0.8406374501992032,
+            0.10144927536231885
+        ],
+        "per_class_recall": [
+            0.7735482907896701,
+            0.6920415224913494,
+            0.8997867803837953,
+            0.5283018867924528
+        ],
+        "multiclass_confusion_matrix": [
+            [
+                5182,
+                1226,
+                75,
+                216
+            ],
+            [
+                151,
+                400,
+                4,
+                23
+            ],
+            [
+                12,
+                26,
+                422,
+                9
+            ],
+            [
+                7,
+                17,
+                1,
+                28
+            ]
+        ],
+        "multiclass_roc_auc": 0.8978738405860618,
+        "per_class_roc_auc": [
+            0.8951907340308595,
+            0.8304118514386863,
+            0.9808419411420775,
+            0.8850508357326241
+        ],
+        "binary_accuracy": 0.783690216694448,
+        "binary_balanced_accuracy": 0.8095014181221079,
+        "binary_f1": 0.5243868057513391,
+        "binary_precision": 0.380057212913772,
+        "binary_recall": 0.8454545454545455,
+        "binary_specificity": 0.7735482907896701,
+        "binary_roc_auc": 0.8951907340308594,
+        "binary_confusion_matrix": [
+            [
+                5182,
+                1517
+            ],
+            [
+                170,
+                930
+            ]
+        ],
+        "model_name": "efficientnet_b0",
+        "model_size_MB": 18.09,
+        "inference_speed_img_per_sec": 258.24
+    },
+    {
+        "epoch": 9,
+        "train_loss": 0.6476787906588919,
+        "composite_score": 0.5410184302691232,
+        "epoch_time": 103.4679172039032,
+        "val_loss": 0.6152172915210001,
+        "multiclass_accuracy": 0.7898448519040903,
+        "multiclass_balanced_accuracy": 0.7390567376630565,
+        "multiclass_macro_f1": 0.5778542715703526,
+        "multiclass_weighted_f1": 0.829283325728704,
+        "multiclass_macro_precision": 0.5422903036402253,
+        "multiclass_macro_recall": 0.7390567376630565,
+        "per_class_f1": [
+            0.8709995076317085,
+            0.36809815950920244,
+            0.8729838709677419,
+            0.19933554817275748
+        ],
+        "per_class_precision": [
+            0.9671951886276654,
+            0.25308241401687215,
+            0.8279158699808795,
+            0.12096774193548387
+        ],
+        "per_class_recall": [
+            0.7922077922077922,
+            0.6747404844290658,
+            0.9232409381663113,
+            0.5660377358490566
+        ],
+        "multiclass_confusion_matrix": [
+            [
+                5307,
+                1118,
+                83,
+                191
+            ],
+            [
+                161,
+                390,
+                6,
+                21
+            ],
+            [
+                12,
+                18,
+                433,
+                6
+            ],
+            [
+                7,
+                15,
+                1,
+                30
+            ]
+        ],
+        "multiclass_roc_auc": 0.8981448867317919,
+        "per_class_roc_auc": [
+            0.895199351327878,
+            0.8264734154371931,
+            0.9812035127422718,
+            0.8897032674198249
+        ],
+        "binary_accuracy": 0.7984356968842159,
+        "binary_balanced_accuracy": 0.8142857142857143,
+        "binary_f1": 0.5392731535756154,
+        "binary_precision": 0.39792387543252594,
+        "binary_recall": 0.8363636363636363,
+        "binary_specificity": 0.7922077922077922,
+        "binary_roc_auc": 0.895199351327878,
+        "binary_confusion_matrix": [
+            [
+                5307,
+                1392
+            ],
+            [
+                180,
+                920
+            ]
+        ],
+        "model_name": "efficientnet_b0",
+        "model_size_MB": 18.09,
+        "inference_speed_img_per_sec": 254.31
+    },
+    {
+        "epoch": 10,
+        "train_loss": 0.644649949059429,
+        "composite_score": 0.5579434969835192,
+        "epoch_time": 103.64060544967651,
+        "val_loss": 0.6218523954148175,
+        "multiclass_accuracy": 0.8133093986408514,
+        "multiclass_balanced_accuracy": 0.734651279268961,
+        "multiclass_macro_f1": 0.596316150232912,
+        "multiclass_weighted_f1": 0.845545100545527,
+        "multiclass_macro_precision": 0.5567723459991429,
+        "multiclass_macro_recall": 0.734651279268961,
+        "per_class_f1": [
+            0.8874001130034708,
+            0.3880747852450733,
+            0.8812182741116751,
+            0.22857142857142856
+        ],
+        "per_class_precision": [
+            0.9660808435852373,
+            0.2740899357601713,
+            0.8410852713178295,
+            0.14583333333333334
+        ],
+        "per_class_recall": [
+            0.8205702343633378,
+            0.6643598615916955,
+            0.9253731343283582,
+            0.5283018867924528
+        ],
+        "multiclass_confusion_matrix": [
+            [
+                5497,
+                983,
+                75,
+                144
+            ],
+            [
+                172,
+                384,
+                6,
+                16
+            ],
+            [
+                13,
+                18,
+                434,
+                4
+            ],
+            [
+                8,
+                16,
+                1,
+                28
+            ]
+        ],
+        "multiclass_roc_auc": 0.8999894200501561,
+        "per_class_roc_auc": [
+            0.8978928333944008,
+            0.8329048205709126,
+            0.9818998944082937,
+            0.8872601318270174
+        ],
+        "binary_accuracy": 0.8211309142197718,
+        "binary_balanced_accuracy": 0.8225578444543962,
+        "binary_f1": 0.565285135556248,
+        "binary_precision": 0.4300616405879564,
+        "binary_recall": 0.8245454545454546,
+        "binary_specificity": 0.8205702343633378,
+        "binary_roc_auc": 0.8978928333944007,
+        "binary_confusion_matrix": [
+            [
+                5497,
+                1202
+            ],
+            [
+                193,
+                907
+            ]
+        ],
+        "model_name": "efficientnet_b0",
+        "model_size_MB": 18.09,
+        "inference_speed_img_per_sec": 256.42
+    }
+]

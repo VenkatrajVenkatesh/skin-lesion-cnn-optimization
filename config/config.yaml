@@ -1,0 +1,37 @@
+# Configuration file for skin lesion classification project
+
+csv_path:  # file path to the CSV containing image paths and labels
+img_size: 224 # Image size for model input
+batch_size: 64 # Batch size for training and evaluation
+num_workers: 4 # Number of workers for data loading
+label_map: # Mapping of labels to integers
+  useful: 0
+  blurry: 1
+  not relevant: 2
+  too far away: 3
+ 
+model: # Model configuration
+  arch: efficientnet_b0
+  pretrained: true
+  num_classes: 4
+  dropout: 0.3
+  freeze_backbone: true
+  simple_head : true
+
+# quantization settings
+qat_epochs: 2 
+qat:
+  quantize_backbone: false
+
+# training settings
+training:
+  epochs: 10
+  lr: 0.0001
+  device: "cuda"
+
+# paths for saving models and results  
+save_path:  # Path to save the best model
+save_result_path : # Path to save training results
+qunat_path:  # Path to save the quantized model results
+pruned_save_path:  # Path to save the pruned model results
+save_post_quant_result_path:  # Path to save post-quantization results
